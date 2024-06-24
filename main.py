@@ -78,22 +78,54 @@ def process_log_file(log_filename):
     return processed_data
 
 
+def process_logs(log_filename):
+    log_pattern = r'(\d{1,2}/\d{1,2}/\d{4}) (\d{1,2}:\d{1,2}:\d{1,2}) \((snpslmd)\) (IN|OUT): "(.*?)" (\S+)'
+
+    processed_data = []
+
+    with open(log_filename, "r") as file:
+        for line in file:
+            match = re.search(log_pattern, line)
+            if match:
+                date = convert_date_format(match.group(1))
+                time = match.group(2)
+                action_type = match.group(4)
+                device_name = match.group(5)
+                user_id = match.group(6).split("@")[0]
+                processed_data.append(
+                    {
+                        "Date": date,
+                        "Time": time,
+                        "Action Type": action_type,
+                        "Device Name": device_name,
+                        "User ID": user_id,
+                    }
+                )
+
+    return processed_data
+
+
 def write_to_csv(data, filename):
     # Extract headers from the first row of data
-    headers = ["Date"] + sorted(
-        set(device for row in data for device in row.keys() if device != "Date")
-    )
+    # headers = ["Date"] + sorted(
+    #     set(device for row in data for device in row.keys() if device != "Date")
+    # )
+
+    headers = ["Date", "Time", "Action Type", "Device Name", "User ID"]
 
     # Write data to CSV file
     with open(filename, mode="w", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=headers)
         writer.writeheader()
         for row in data:
-            output_row = {header: row.get(header, "No logs!") for header in headers}
+            output_row = {header: row.get(header, "") for header in headers}
             writer.writerow(output_row)
 
 
-log_file_path = "./licenses_logs/" + input("Enter filename of logs: ")  # Replace with your actual log file path
+log_file_path = "./licenses_logs/" + input(
+    "Enter filename of logs: "
+)  # Replace with your actual log file path
+
 filtered_lines = filter_log_lines(log_file_path)
 
 
@@ -106,7 +138,7 @@ with open("filtered.log", "w") as f:
 log_filename = "filtered.log"  # Replace with your actual log file name
 
 # Process the log file
-processed_data = process_log_file(log_filename)
+processed_data = process_logs(log_filename)
 
 # write processed data to json file
 json_filename = "daily_device_counts.json"
