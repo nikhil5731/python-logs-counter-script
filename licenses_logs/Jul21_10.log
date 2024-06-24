@@ -1,0 +1,733 @@
+ 5:40:39 (lmgrd) -----------------------------------------------
+ 5:40:39 (lmgrd)   Please Note:
+ 5:40:39 (lmgrd) 
+ 5:40:39 (lmgrd)   This log is intended for debug purposes only.
+ 5:40:39 (lmgrd)   In order to capture accurate license
+ 5:40:39 (lmgrd)   usage data into an organized repository,
+ 5:40:39 (lmgrd)   please enable report logging. Use Flexera's
+ 5:40:39 (lmgrd)   software license administration  solution,
+ 5:40:39 (lmgrd)   FlexNet Manager, to  readily gain visibility
+ 5:40:39 (lmgrd)   into license usage data and to create
+ 5:40:39 (lmgrd)   insightful reports on critical information like
+ 5:40:39 (lmgrd)   license availability and usage. FlexNet Manager
+ 5:40:39 (lmgrd)   can be fully automated to run these reports on
+ 5:40:39 (lmgrd)   schedule and can be used to track license
+ 5:40:39 (lmgrd)   servers and usage across a heterogeneous
+ 5:40:39 (lmgrd)   network of servers including Windows NT, Linux
+ 5:40:39 (lmgrd)   and UNIX.
+ 5:40:39 (lmgrd) 
+ 5:40:39 (lmgrd) -----------------------------------------------
+ 5:40:39 (lmgrd) 
+ 5:40:39 (lmgrd) 
+ 5:40:39 (lmgrd) Server's System Date and Time: Sat Jul 10 2021 05:40:39 UTC
+ 5:40:39 (lmgrd) SLOG: Summary LOG statistics is enabled.
+ 5:40:39 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (7/10/2021)
+ 5:40:39 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+ 5:40:39 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+ 5:40:39 (lmgrd) License file(s): ./admin/license/Jul21.lic
+ 5:40:39 (lmgrd) lmgrd tcp-port 27020
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) Start-Date: Sat Jul 10 2021 05:40:39 UTC
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) PID: 6060
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) 
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) 
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ./admin/license/Jul21.lic -l ./admin/logs/Jul21_10.log 
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ./admin/license/Jul21.lic
+ 5:40:39 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 5:40:39 (lmgrd) Starting vendor daemons ... 
+ 5:40:39 (lmgrd) Started snpslmd (internet tcp_port 34037 pid 6062)
+ 5:40:39 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+07/10/2021 05:40:39 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+07/10/2021 05:40:39 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+07/10/2021 05:40:40 (snpslmd) INFO: License sanity check enabled (3600)
+07/10/2021 05:40:40 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+07/10/2021 05:40:40 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=1024 | net.core.somaxconn=128
+
+07/10/2021 05:40:40 (snpslmd) INFO: Cloud detection enabled. 1
+ 5:40:40 (snpslmd) SLOG: Summary LOG statistics is enabled.
+ 5:40:40 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+ 5:40:40 (snpslmd) SLOG: VM Status: 6
+ 5:40:40 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+ 5:40:40 (snpslmd) SLOG: TPM Status: 0
+ 5:40:40 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+ 5:40:40 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	SSST		
+ 5:40:40 (snpslmd) ACS		BOA-BRT		DC-Expert	
+ 5:40:40 (snpslmd) DC-Extension	DC-SDF-Interface DC-Ultra-Features 
+ 5:40:40 (snpslmd) DC-Ultra-Opt	Design-Budgeting Design-Compiler 
+ 5:40:40 (snpslmd) Design-Compiler-NXT Design-Vision	DesignWare	
+ 5:40:40 (snpslmd) DesignWare-LP	DesignWare-VERA Designware-Basic 
+ 5:40:40 (snpslmd) FAS-COSIM	FSPRO2XSIM	Formality	
+ 5:40:40 (snpslmd) Formality-Advanced Formality-E1	Formality-Ultra 
+ 5:40:40 (snpslmd) Galaxy-Common	GalaxyConstraint HDL		
+ 5:40:40 (snpslmd) HDL-Compiler	ICCompilerII	ICCompilerII-4	
+ 5:40:40 (snpslmd) ICCompilerIIs-Shell ICValidator-Live ICValidator-Manager 
+ 5:40:40 (snpslmd) ICValidator-Workbench ICValidator2-CompareEngine ICValidator2-GeometryEngine 
+ 5:40:40 (snpslmd) Library-Compiler MCE-Base	MDataPrep	
+ 5:40:40 (snpslmd) MDynLink	Milkyway	Milkyway-Interface 
+ 5:40:40 (snpslmd) Power-Optimization PrimePower	PrimeTime	
+ 5:40:40 (snpslmd) PrimeTime-SI	RTL-Power-Analysis STAR-RC2-NETLIST 
+ 5:40:40 (snpslmd) STAR-RC2-PROBER STAR-RC2-TCAD	STAR-RC2_ULTRA_MANAGER 
+ 5:40:40 (snpslmd) SynLib-Eval	SynopsysCustomAdvancedPlus SynopsysCustomSAE 
+ 5:40:40 (snpslmd) Test-CTL-Model	Test-Compiler	Test-Core-Wrapper 
+ 5:40:40 (snpslmd) Test-DFTC-TMAX	Test-LBIST-Synthesis Test-MBIST-Integration 
+ 5:40:40 (snpslmd) Test-RTL-Check	Test-RTL-Tristate Test-STDVR	
+ 5:40:40 (snpslmd) Test-ScanRoute	Test-Validate	VC-CDC-BASE	
+ 5:40:40 (snpslmd) VC-LINT-BASE	VC-STATIC-COMPILE VC-STATIC-LINT	
+ 5:40:40 (snpslmd) VC-STATIC-VERDI-PLUGIN VCSCompiler_Net VCSMXCompiler_Net 
+ 5:40:40 (snpslmd) VCSMXRunTime_Net VCSRuntime_Net	VCSTools_Net	
+ 5:40:40 (snpslmd) VCSUltraCompiler_Net VCSUltraRuntime_Net VERDI-ULTRA	
+ 5:40:40 (snpslmd) VIP-AMBA-AHB-SVT VIP-AMBA-APB-SVT VIP-AMBA-AXI-SVT 
+ 5:40:40 (snpslmd) VT_CoverageURG	VT_VCS_AMS_AddOnRuntime VT_VCS_AMS_CoSimRuntime 
+ 5:40:40 (snpslmd) Verdi_HwSwDebug adv_checker	cdc_adv_checker 
+ 5:40:40 (snpslmd) cdsaawaves	checker		encrypt		
+ 5:40:40 (snpslmd) fullhspice	hspice		hspice3des	
+ 5:40:40 (snpslmd) hspice_api	hspicecmidev	hspicecmirt	
+ 5:40:40 (snpslmd) metaencrypt3des nanosim/ace_cosim primewave	
+ 5:40:40 (snpslmd) simif		spice_explorer	spice_parser	
+ 5:40:40 (snpslmd) sx_cdslink	sx_cdslink_ext	sx_data		
+ 5:40:40 (snpslmd) xsim		
+ 5:40:40 (snpslmd) 
+ 5:40:40 (snpslmd) Licenses are case sensitive for TE_CATS
+ 5:40:40 (snpslmd) 
+ 5:40:40 (snpslmd) EXTERNAL FILTERS are OFF
+ 5:40:40 (lmgrd) snpslmd using TCP-port 34037
+ 5:40:40 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+07/10/2021 05:40:40 (snpslmd) ------------------------------------------------------------------
+07/10/2021 05:40:40 (snpslmd) Checking the integrity of the license file...
+07/10/2021 05:40:40 (snpslmd) Valid SSST feature found.
+07/10/2021 05:40:40 (snpslmd) Licensed to Quasistatics Inc.
+07/10/2021 05:40:40 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 7/7/2021
+07/10/2021 05:40:40 (snpslmd) ------------------------------------------------------------------
+07/10/2021 05:40:40 (snpslmd) INFO: Server WAN NC data enabled
+07/10/2021 05:40:40 (snpslmd) [SCL] Running on AWS Cloud Platform.
+ 5:40:40 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+ 5:40:40 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+ 5:40:40 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Start-Date: Sat Jul 10 2021 05:40:40 UTC
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) PID: 6062
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) 
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: Yes
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: 11.16.4.0
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) 
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Listening port: 34037
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) 
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Amazon EC2
+ 5:40:40 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 5:52:26 (snpslmd) TCP_NODELAY NOT enabled
+ 5:53:05 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [26358@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 6:34:12 (snpslmd) UNSUPPORTED: "sx_wva" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+ 6:34:12 (snpslmd) OUT: "spice_explorer" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+ 6:38:38 (snpslmd) IN: "spice_explorer" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+ 6:53:54 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [26358@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 7:02:36 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [108643@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 8:24:18 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [108643@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 8:26:31 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [190215@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 09:40:41 UTC
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 09:34:30 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 09:24:30 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 09:14:30 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 09:04:30 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 08:54:30 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 08:26:31 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 08:26:31 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 08:26:31 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 08:26:31 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 08:26:08 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 09:40:41 UTC
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 06:32:23 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 08:26:08 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 08:26:08 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 08:26:31 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 09:40:41 UTC
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) Peak active connections #5 attempted at Sat Jul 10 2021 06:34:12 UTC
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) 
+ 9:40:41 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 9:45:25 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_259749_1] (No such feature exists. (-5,346))
+ 9:45:25 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_259749_1] 
+ 9:45:26 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_259749_1] 
+ 9:45:47 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_259749_1] 
+ 9:45:47 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_259749_1] 
+ 9:53:41 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_272269_1] (No such feature exists. (-5,346))
+ 9:53:41 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_272269_1] 
+ 9:53:41 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_272269_1] 
+ 9:54:02 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_272269_1] 
+ 9:54:02 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_272269_1] 
+10:08:25 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_291427_1] (No such feature exists. (-5,346))
+10:08:25 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_291427_1] 
+10:08:26 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_291427_1] 
+10:08:46 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_291427_1] 
+10:08:46 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_291427_1] 
+10:11:00 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_295867_1] (No such feature exists. (-5,346))
+10:11:00 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_295867_1] 
+10:11:01 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_295867_1] 
+10:11:22 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_295867_1] 
+10:11:22 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_295867_1] 
+10:13:30 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_300083_1] (No such feature exists. (-5,346))
+10:13:30 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_300083_1] 
+10:13:31 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_300083_1] 
+10:14:12 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_300083_1] 
+10:14:12 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_300083_1] 
+10:18:55 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_307828_1] (No such feature exists. (-5,346))
+10:18:55 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_307828_1] 
+10:18:55 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_307828_1] 
+10:19:15 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_307828_1] 
+10:19:16 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_307828_1] 
+10:22:00 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_312368_1] (No such feature exists. (-5,346))
+10:22:00 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_312368_1] 
+10:22:01 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_312368_1] 
+10:22:20 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_312368_1] 
+10:22:20 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_312368_1] 
+10:26:02 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_317640_1] (No such feature exists. (-5,346))
+10:26:02 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_317640_1] 
+10:26:02 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_317640_1] 
+10:26:23 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_317640_1] 
+10:26:23 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_317640_1] 
+10:29:29 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_323136_1] (No such feature exists. (-5,346))
+10:29:29 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_323136_1] 
+10:29:30 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_323136_1] 
+10:29:50 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_323136_1] 
+10:29:50 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_323136_1] 
+10:33:17 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_328301_1] (No such feature exists. (-5,346))
+10:33:17 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_328301_1] 
+10:33:17 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_328301_1] 
+10:33:36 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_328301_1] 
+10:33:37 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_328301_1] 
+10:41:04 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_336762_1] (No such feature exists. (-5,346))
+10:41:04 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_336762_1] 
+10:41:05 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_336762_1] 
+10:41:25 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_336762_1] 
+10:41:26 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_336762_1] 
+10:48:52 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_346133_1] (No such feature exists. (-5,346))
+10:48:52 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_346133_1] 
+10:48:52 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_346133_1] 
+10:49:31 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_346133_1] 
+10:49:31 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_346133_1] 
+10:53:32 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_351983_1] (No such feature exists. (-5,346))
+10:53:32 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_351983_1] 
+10:53:33 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_351983_1] 
+10:53:53 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_351983_1] 
+10:53:53 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_351983_1] 
+10:55:58 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_355563_1] (No such feature exists. (-5,346))
+10:55:58 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_355563_1] 
+10:55:59 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_355563_1] 
+10:56:19 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_355563_1] 
+10:56:19 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_355563_1] 
+11:03:16 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_361216_1] (No such feature exists. (-5,346))
+11:03:16 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_361216_1] 
+11:03:17 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_361216_1] 
+11:03:51 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_363895_1] 
+11:03:51 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_363895_1] 
+11:03:53 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_361216_1] 
+11:03:53 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_361216_1] 
+11:09:27 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_371762_1] (No such feature exists. (-5,346))
+11:09:27 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_371762_1] 
+11:09:28 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_371762_1] 
+11:09:40 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_372806_1] 
+11:09:40 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_372806_1] 
+11:09:42 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_371762_1] 
+11:09:42 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_371762_1] 
+11:14:06 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_379507_1] (No such feature exists. (-5,346))
+11:14:06 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_379507_1] 
+11:14:07 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_379507_1] 
+11:14:19 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_380612_1] 
+11:14:19 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_380612_1] 
+11:14:21 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_379507_1] 
+11:14:21 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_379507_1] 
+11:18:54 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_387555_1] (No such feature exists. (-5,346))
+11:18:54 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_387555_1] 
+11:18:54 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_387555_1] 
+11:19:07 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_388638_1] 
+11:19:07 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_388638_1] 
+11:19:09 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_387555_1] 
+11:19:09 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_387555_1] 
+11:22:21 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_392683_1] (No such feature exists. (-5,346))
+11:22:21 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_392683_1] 
+11:22:21 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_392683_1] 
+11:22:34 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_393840_1] 
+11:22:34 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_393840_1] 
+11:22:36 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_392683_1] 
+11:22:36 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_392683_1] 
+11:27:51 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [190215@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+11:38:17 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [411067@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+11:40:10 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_414899_1] (No such feature exists. (-5,346))
+11:40:10 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_414899_1] 
+11:40:10 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_414899_1] 
+11:40:23 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_415989_1] 
+11:40:23 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_415989_1] 
+11:40:24 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_414899_1] 
+11:40:24 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_414899_1] 
+11:40:42 (lmgrd) TIMESTAMP 7/10/2021
+11:45:42 (snpslmd) TIMESTAMP 7/10/2021
+11:46:00 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_424260_1] (No such feature exists. (-5,346))
+11:46:00 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_424260_1] 
+11:46:00 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_424260_1] 
+11:46:13 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_425334_1] 
+11:46:13 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_425334_1] 
+11:46:15 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_424260_1] 
+11:46:15 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_424260_1] 
+11:58:16 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_441385_1] (No such feature exists. (-5,346))
+11:58:16 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_441385_1] 
+11:58:17 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_441385_1] 
+11:58:28 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_442422_1] 
+11:58:28 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_442422_1] 
+11:58:30 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_441385_1] 
+11:58:30 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_441385_1] 
+12:00:33 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_445570_1] (No such feature exists. (-5,346))
+12:00:33 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_445570_1] 
+12:00:34 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_445570_1] 
+12:00:46 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_446661_1] 
+12:00:46 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_446661_1] 
+12:00:48 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_445570_1] 
+12:00:48 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_445570_1] 
+12:01:55 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_448778_1] (No such feature exists. (-5,346))
+12:01:55 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_448778_1] 
+12:01:56 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_448778_1] 
+12:02:08 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_449827_1] 
+12:02:08 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_449827_1] 
+12:02:10 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_448778_1] 
+12:02:10 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_448778_1] 
+12:02:42 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_451039_1] (No such feature exists. (-5,346))
+12:02:42 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_451039_1] 
+12:02:42 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_451039_1] 
+12:03:03 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_451039_1] 
+12:03:03 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_451039_1] 
+12:55:26 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_490029_1] (No such feature exists. (-5,346))
+12:55:26 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_490029_1] 
+12:55:28 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_490029_1] 
+12:55:51 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_491234_1] 
+12:55:51 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_491234_1] 
+12:55:52 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_490029_1] 
+12:55:53 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_490029_1] 
+13:01:34 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_498815_1] (No such feature exists. (-5,346))
+13:01:34 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_498815_1] 
+13:01:35 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_498815_1] 
+13:01:48 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_499896_1] 
+13:01:48 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_499896_1] 
+13:01:49 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_498815_1] 
+13:01:49 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_498815_1] 
+13:07:26 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_507208_1] (No such feature exists. (-5,346))
+13:07:26 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_507208_1] 
+13:07:26 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_507208_1] 
+13:07:40 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_508229_1] 
+13:07:40 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_508229_1] 
+13:07:42 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_507208_1] 
+13:07:42 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_507208_1] 
+13:40:41 (snpslmd) (@snpslmd-SLOG@) ===============================================
+13:40:41 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+13:40:41 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 13:40:41 UTC
+13:40:41 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:37:31 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:27:31 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:17:31 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:07:44 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:07:44 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:07:44 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 13:07:44 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:07:44 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:07:44 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 13:07:44 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 
+13:40:41 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+13:40:41 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 13:40:41 UTC
+13:40:41 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 12:02:38 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 13:07:29 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,80)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 06:32:23 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 08:26:08 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 
+13:40:41 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+13:40:41 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+13:40:41 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 13:40:41 UTC
+13:40:41 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 
+13:40:41 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+13:40:41 (snpslmd) (@snpslmd-SLOG@) Peak active connections #12 attempted at Sat Jul 10 2021 11:46:13 UTC
+13:40:41 (snpslmd) (@snpslmd-SLOG@) 
+13:40:41 (snpslmd) (@snpslmd-SLOG@) ===============================================
+13:46:29 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [411067@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+13:54:41 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [521700@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+13:59:02 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_530062_1] (No such feature exists. (-5,346))
+13:59:02 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_530062_1] 
+13:59:03 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_530062_1] 
+13:59:15 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_531170_1] 
+13:59:15 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_531170_1] 
+13:59:17 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_530062_1] 
+13:59:17 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_530062_1] 
+14:02:42 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_536745_1] (No such feature exists. (-5,346))
+14:02:42 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_536745_1] 
+14:02:42 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_536745_1] 
+14:02:55 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_537835_1] 
+14:02:55 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_537835_1] 
+14:02:57 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_536745_1] 
+14:02:57 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_536745_1] 
+14:03:35 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_539248_1] (No such feature exists. (-5,346))
+14:03:35 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_539248_1] 
+14:03:36 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_539248_1] 
+14:03:57 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_539248_1] 
+14:03:57 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_539248_1] 
+14:05:54 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_543609_1] (No such feature exists. (-5,346))
+14:05:54 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_543609_1] 
+14:05:55 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_543609_1] 
+14:06:16 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_543609_1] 
+14:06:16 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_543609_1] 
+14:07:41 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_546902_1] (No such feature exists. (-5,346))
+14:07:41 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_546902_1] 
+14:07:42 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_546902_1] 
+14:08:02 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_546902_1] 
+14:08:02 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_546902_1] 
+14:09:53 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_550693_1] (No such feature exists. (-5,346))
+14:09:53 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_550693_1] 
+14:09:54 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_550693_1] 
+14:10:15 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_550693_1] 
+14:10:15 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_550693_1] 
+14:11:30 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_554080_1] (No such feature exists. (-5,346))
+14:11:30 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_554080_1] 
+14:11:31 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_554080_1] 
+14:11:42 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_555105_1] 
+14:11:42 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_555105_1] 
+14:11:44 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_554080_1] 
+14:11:44 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_554080_1] 
+14:17:38 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_562616_1] (No such feature exists. (-5,346))
+14:17:38 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_562616_1] 
+14:17:39 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_562616_1] 
+14:18:02 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_562616_1] 
+14:18:02 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_562616_1] 
+15:08:41 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [521700@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+15:41:50 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [610820@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+16:24:02 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_660913_1] (No such feature exists. (-5,346))
+16:24:02 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_660913_1] 
+16:24:03 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_660913_1] 
+16:24:29 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_660913_1] 
+16:24:29 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_660913_1] 
+16:29:00 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_666761_1] (No such feature exists. (-5,346))
+16:29:00 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_666761_1] 
+16:29:01 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_666761_1] 
+16:29:26 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_666761_1] 
+16:29:26 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_666761_1] 
+16:35:10 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_673542_1] (No such feature exists. (-5,346))
+16:35:10 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_673542_1] 
+16:35:11 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_673542_1] 
+16:35:35 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_673542_1] 
+16:35:35 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_673542_1] 
+16:38:46 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_677636_1] (No such feature exists. (-5,346))
+16:38:46 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_677636_1] 
+16:38:47 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_677636_1] 
+16:38:52 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_677636_1] 
+16:38:52 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_677636_1] 
+16:39:40 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_680222_1] (No such feature exists. (-5,346))
+16:39:40 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_680222_1] 
+16:39:40 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_680222_1] 
+16:39:53 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_681209_1] 
+16:39:54 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_681209_1] 
+16:39:55 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_680222_1] 
+16:39:55 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_680222_1] 
+16:46:32 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_687438_1] (No such feature exists. (-5,346))
+16:46:32 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_687438_1] 
+16:46:33 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_687438_1] 
+16:46:45 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_688511_1] 
+16:46:46 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_688511_1] 
+16:46:47 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_687438_1] 
+16:46:47 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_687438_1] 
+16:51:56 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_694148_1] (No such feature exists. (-5,346))
+16:51:56 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_694148_1] 
+16:51:57 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_694148_1] 
+16:52:10 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_695189_1] 
+16:52:10 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_695189_1] 
+16:52:12 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_694148_1] 
+16:52:12 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_694148_1] 
+16:52:43 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_696335_1] (No such feature exists. (-5,346))
+16:52:43 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_696335_1] 
+16:52:44 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_696335_1] 
+16:53:06 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_696335_1] 
+16:53:06 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_696335_1] 
+17:08:02 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_713679_1] (No such feature exists. (-5,346))
+17:08:02 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_713679_1] 
+17:08:03 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_713679_1] 
+17:08:13 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_714974_1] 
+17:08:13 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_714974_1] 
+17:08:14 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_713679_1] 
+17:08:14 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_713679_1] 
+17:23:53 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_729084_1] (No such feature exists. (-5,346))
+17:23:53 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_729084_1] 
+17:23:54 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_729084_1] 
+17:24:14 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_729084_1] 
+17:24:14 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_729084_1] 
+17:27:08 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_733293_1] (No such feature exists. (-5,346))
+17:27:08 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_733293_1] 
+17:27:10 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_733293_1] 
+17:27:24 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_735611_1] 
+17:27:24 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_735611_1] 
+17:27:26 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_733293_1] 
+17:27:26 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_733293_1] 
+17:27:28 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_735545_1] (No such feature exists. (-5,346))
+17:27:28 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_735545_1] 
+17:27:29 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_735545_1] 
+17:27:43 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_737113_1] 
+17:27:43 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_737113_1] 
+17:27:44 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_735545_1] 
+17:27:44 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_735545_1] 
+17:28:23 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_738344_1] (No such feature exists. (-5,346))
+17:28:23 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_738344_1] 
+17:28:24 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_738344_1] 
+17:28:37 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_739300_1] 
+17:28:37 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_739300_1] 
+17:28:39 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_738344_1] 
+17:28:39 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_738344_1] 
+17:40:42 (lmgrd) TIMESTAMP 7/10/2021
+17:40:42 (snpslmd) (@snpslmd-SLOG@) ===============================================
+17:40:42 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+17:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 17:40:42 UTC
+17:40:42 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:31:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 17:28:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute,77)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 
+17:40:42 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+17:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 17:40:42 UTC
+17:40:42 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 12:02:38 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 13:07:29 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,80)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute,74)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 06:32:23 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 08:26:08 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 
+17:40:42 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+17:40:42 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+17:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 17:40:42 UTC
+17:40:42 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 
+17:40:42 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+17:40:42 (snpslmd) (@snpslmd-SLOG@) Peak active connections #12 attempted at Sat Jul 10 2021 11:46:13 UTC
+17:40:42 (snpslmd) (@snpslmd-SLOG@) 
+17:40:42 (snpslmd) (@snpslmd-SLOG@) ===============================================
+17:50:42 (snpslmd) TIMESTAMP 7/10/2021
+18:13:39 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_784231_1] (No such feature exists. (-5,346))
+18:13:39 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_784231_1] 
+18:13:40 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_784231_1] 
+18:14:10 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_784231_1] 
+18:14:11 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_784231_1] 
+18:22:32 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_792790_1] (No such feature exists. (-5,346))
+18:22:32 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_792790_1] 
+18:22:33 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_792790_1] 
+18:22:59 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_792790_1] 
+18:23:00 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_792790_1] 
+18:25:00 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_795039_1] (No such feature exists. (-5,346))
+18:25:00 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_795039_1] 
+18:25:01 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_795039_1] 
+18:25:31 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_795039_1] 
+18:25:31 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_795039_1] 
+21:40:42 (snpslmd) (@snpslmd-SLOG@) ===============================================
+21:40:42 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+21:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 21:40:42 UTC
+21:40:42 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 21:31:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 21:21:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 21:11:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 21:01:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 20:51:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 20:41:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 20:31:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 20:21:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 20:11:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 20:01:16 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 
+21:40:42 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+21:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 21:40:42 UTC
+21:40:42 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 12:02:38 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 13:07:29 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,80)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 18:22:33 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute,80)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 06:32:23 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 
+21:40:42 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+21:40:42 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+21:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 21:40:42 UTC
+21:40:42 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 
+21:40:42 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+21:40:42 (snpslmd) (@snpslmd-SLOG@) Peak active connections #12 attempted at Sat Jul 10 2021 11:46:13 UTC
+21:40:42 (snpslmd) (@snpslmd-SLOG@) 
+21:40:42 (snpslmd) (@snpslmd-SLOG@) ===============================================
+23:40:42 (lmgrd) TIMESTAMP 7/10/2021
+23:55:42 (snpslmd) TIMESTAMP 7/10/2021
+ 1:26:34 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1012804_1] (No such feature exists. (-5,346))
+ 1:26:34 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1012804_1] 
+ 1:26:35 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1012804_1] 
+ 1:27:05 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1012804_1] 
+ 1:27:05 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1012804_1] 
+ 1:33:08 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1023371_1] (No such feature exists. (-5,346))
+ 1:33:08 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1023371_1] 
+ 1:33:08 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1023371_1] 
+ 1:33:39 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1023371_1] 
+ 1:33:39 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1023371_1] 
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sun Jul 11 2021 01:40:42 UTC
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 01:33:41 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sun Jul 11 2021 01:40:42 UTC
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 12:02:38 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 13:07:29 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,80)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 18:22:33 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute,80)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute,74)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 06:32:23 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) Time: Sun Jul 11 2021 01:40:42 UTC
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) Peak active connections #12 attempted at Sat Jul 10 2021 11:46:13 UTC
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) 
+ 1:40:42 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 3:14:35 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1103559_1] (No such feature exists. (-5,346))
+ 3:14:35 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1103559_1] 
+ 3:14:36 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1103559_1] 
+ 3:15:08 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1103559_1] 
+ 3:15:08 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1103559_1] 
+ 4:03:06 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1170854_1] (No such feature exists. (-5,346))
+ 4:03:06 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1170854_1] 
+ 4:03:06 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1170854_1] 
+ 4:03:37 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1170854_1] 
+ 4:03:37 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1170854_1] 
+ 4:10:14 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1181358_1] (No such feature exists. (-5,346))
+ 4:10:14 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1181358_1] 
+ 4:10:14 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1181358_1] 
+ 4:10:45 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1181358_1] 
+ 4:10:45 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1181358_1] 
+ 4:18:45 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1194732_1] (No such feature exists. (-5,346))
+ 4:18:45 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1194732_1] 
+ 4:18:45 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1194732_1] 
+ 4:18:59 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1195792_1] 
+ 4:18:59 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1195792_1] 
+ 4:19:01 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1194732_1] 
+ 4:19:01 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1194732_1] 
+ 4:23:56 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [610820@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 4:30:31 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+ 4:30:31 (lmgrd) Shutting down snpslmd pid=6062 because of signal 15
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) Time: Sun Jul 11 2021 04:30:31 UTC
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:30:31 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:30:31 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:23:56 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:21:16 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:19:03 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:19:03 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:19:03 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:19:03 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:19:03 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sun Jul 11 2021 04:19:03 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) Time: Sun Jul 11 2021 04:30:31 UTC
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 12:02:38 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 13:07:29 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,80)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000002 ms at Sat Jul 10 2021 18:22:33 UTC,#8,(sumonbose,ip-172-31-33-1.us-east-2.compute,80)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 05:52:26 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 06:32:23 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 07:02:15 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) Time: Sun Jul 11 2021 04:30:31 UTC
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) Peak active connections #12 attempted at Sat Jul 10 2021 11:46:13 UTC
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) 
+ 4:30:31 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 4:30:31 (snpslmd) Shutdown requested.
+ 4:30:31 (snpslmd) daemon shutdown requested - shutting down
+ 4:30:31 (lmgrd) Shut down FlexNet snpslmd license server system on machine ip-172-31-33-1.us-east-2.compute.internal
+ 4:30:31 (lmgrd) EXITING DUE TO SIGNAL 15

@@ -1,0 +1,207 @@
+ 1:59:10 (lmgrd) -----------------------------------------------
+ 1:59:10 (lmgrd)   Please Note:
+ 1:59:10 (lmgrd) 
+ 1:59:10 (lmgrd)   This log is intended for debug purposes only.
+ 1:59:10 (lmgrd)   In order to capture accurate license
+ 1:59:10 (lmgrd)   usage data into an organized repository,
+ 1:59:10 (lmgrd)   please enable report logging. Use Flexera's
+ 1:59:10 (lmgrd)   software license administration  solution,
+ 1:59:10 (lmgrd)   FlexNet Manager, to  readily gain visibility
+ 1:59:10 (lmgrd)   into license usage data and to create
+ 1:59:10 (lmgrd)   insightful reports on critical information like
+ 1:59:10 (lmgrd)   license availability and usage. FlexNet Manager
+ 1:59:10 (lmgrd)   can be fully automated to run these reports on
+ 1:59:10 (lmgrd)   schedule and can be used to track license
+ 1:59:10 (lmgrd)   servers and usage across a heterogeneous
+ 1:59:10 (lmgrd)   network of servers including Windows NT, Linux
+ 1:59:10 (lmgrd)   and UNIX.
+ 1:59:10 (lmgrd) 
+ 1:59:10 (lmgrd) -----------------------------------------------
+ 1:59:10 (lmgrd) 
+ 1:59:10 (lmgrd) 
+ 1:59:10 (lmgrd) Server's System Date and Time: Thu May 06 2021 01:59:10 UTC
+ 1:59:10 (lmgrd) SLOG: Summary LOG statistics is enabled.
+ 1:59:25 (lmgrd) The TCP port number in the license, 27020, is already in use.
+ 1:59:25 (lmgrd) Possible causes: 
+ 1:59:25 (lmgrd)    1) The license server manager (lmgrd) is already running for this license.
+ 1:59:25 (lmgrd)    2) The OS has not "cleared" this port since lmgrd died.
+ 1:59:25 (lmgrd)    3) Another process is using this port number (unlikely).
+ 1:59:25 (lmgrd) Solutions:
+ 1:59:25 (lmgrd)    1) Make sure lmgrd and all vendor daemons for this 
+ 1:59:25 (lmgrd)       license are not running.
+ 1:59:25 (lmgrd)    2) You may have to wait for the OS to clear this port.
+ 1:59:25 (lmgrd) Retrying for about 5 more minutes
+ 1:59:43 (lmgrd) Still trying... 
+ 2:00:01 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (5/6/2021)
+ 2:00:01 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+ 2:00:01 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+ 2:00:01 (lmgrd) License file(s): ../../admin/license/May21_5.lic
+ 2:00:01 (lmgrd) lmgrd tcp-port 27020
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) Start-Date: Thu May 06 2021 02:00:01 UTC
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) PID: 4090529
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) 
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) 
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ../../admin/license/May21_5.lic -l ../../admin/logs/May21_5.log 
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ../../admin/license/May21_5.lic
+ 2:00:01 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 2:00:01 (lmgrd) Starting vendor daemons ... 
+ 2:00:01 (lmgrd) Started snpslmd (internet tcp_port 34387 pid 4090626)
+ 2:00:01 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+05/06/2021 02:00:01 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+05/06/2021 02:00:01 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+05/06/2021 02:00:01 (snpslmd) INFO: License sanity check enabled (3600)
+05/06/2021 02:00:01 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+05/06/2021 02:00:01 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=512 | net.core.somaxconn=128
+
+05/06/2021 02:00:01 (snpslmd) INFO: Cloud detection enabled. 1
+ 2:00:01 (snpslmd) SLOG: Summary LOG statistics is enabled.
+ 2:00:01 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+ 2:00:01 (snpslmd) SLOG: VM Status: 6
+ 2:00:01 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+ 2:00:01 (snpslmd) SLOG: TPM Status: 0
+ 2:00:01 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+ 2:00:01 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	SSST		
+ 2:00:01 (snpslmd) ACS		BOA-BRT		DC-Expert	
+ 2:00:01 (snpslmd) DC-Extension	DC-SDF-Interface DC-Ultra-Features 
+ 2:00:01 (snpslmd) DC-Ultra-Opt	Design-Budgeting Design-Compiler 
+ 2:00:01 (snpslmd) Design-Compiler-NXT Design-Vision	DesignWare	
+ 2:00:01 (snpslmd) DesignWare-LP	DesignWare-VERA Designware-Basic 
+ 2:00:01 (snpslmd) FSPRO2XSIM	Formality	Formality-Advanced 
+ 2:00:01 (snpslmd) Formality-E1	Formality-Ultra Galaxy-Common	
+ 2:00:01 (snpslmd) GalaxyConstraint HDL		HDL-Compiler	
+ 2:00:01 (snpslmd) ICCompilerII	ICCompilerII-4	ICCompilerIIs-Shell 
+ 2:00:01 (snpslmd) ICValidator-Live ICValidator-Manager ICValidator-Workbench 
+ 2:00:01 (snpslmd) ICValidator2-CompareEngine ICValidator2-GeometryEngine Library-Compiler 
+ 2:00:01 (snpslmd) MCE-Base	MDataPrep	MDynLink	
+ 2:00:01 (snpslmd) Milkyway	Milkyway-Interface Power-Optimization 
+ 2:00:01 (snpslmd) PrimePower	PrimeTime	PrimeTime-SI	
+ 2:00:01 (snpslmd) RTL-Power-Analysis STAR-RC2-NETLIST STAR-RC2-PROBER 
+ 2:00:01 (snpslmd) STAR-RC2-TCAD	STAR-RC2_ULTRA_MANAGER SynLib-Eval	
+ 2:00:01 (snpslmd) SynopsysCustomAdvancedPlus SynopsysCustomSAE Test-CTL-Model	
+ 2:00:01 (snpslmd) Test-Compiler	Test-Core-Wrapper Test-DFTC-TMAX	
+ 2:00:01 (snpslmd) Test-LBIST-Synthesis Test-MBIST-Integration Test-RTL-Check	
+ 2:00:01 (snpslmd) Test-RTL-Tristate Test-STDVR	Test-ScanRoute	
+ 2:00:01 (snpslmd) Test-Validate	VC-CDC-BASE	VC-LINT-BASE	
+ 2:00:01 (snpslmd) VC-STATIC-COMPILE VC-STATIC-LINT	VC-STATIC-VERDI-PLUGIN 
+ 2:00:01 (snpslmd) VCSCompiler_Net VCSMXCompiler_Net VCSMXRunTime_Net 
+ 2:00:01 (snpslmd) VCSRuntime_Net	VCSTools_Net	VCSUltraCompiler_Net 
+ 2:00:01 (snpslmd) VCSUltraRuntime_Net VERDI-ULTRA	VIP-AMBA-AHB-SVT 
+ 2:00:01 (snpslmd) VIP-AMBA-APB-SVT VIP-AMBA-AXI-SVT VT_CoverageURG	
+ 2:00:01 (snpslmd) VT_VCS_AMS_CoSimRuntime Verdi_HwSwDebug adv_checker	
+ 2:00:01 (snpslmd) cdc_adv_checker cdsaawaves	checker		
+ 2:00:01 (snpslmd) encrypt		fullhspice	hspice		
+ 2:00:01 (snpslmd) hspice3des	hspice_api	hspicecmidev	
+ 2:00:01 (snpslmd) hspicecmirt	metaencrypt3des nanosim/ace_cosim 
+ 2:00:01 (snpslmd) primewave	simif		spice_explorer	
+ 2:00:01 (snpslmd) spice_parser	sx_cdslink	sx_cdslink_ext	
+ 2:00:01 (snpslmd) sx_data		xsim		FAS-COSIM	
+ 2:00:01 (snpslmd) VT_VCS_AMS_AddOnRuntime 
+ 2:00:01 (snpslmd) 
+ 2:00:01 (snpslmd) Licenses are case sensitive for TE_CATS
+ 2:00:01 (snpslmd) 
+ 2:00:01 (snpslmd) EXTERNAL FILTERS are OFF
+ 2:00:01 (lmgrd) snpslmd using TCP-port 34387
+ 2:00:01 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+05/06/2021 02:00:01 (snpslmd) ------------------------------------------------------------------
+05/06/2021 02:00:01 (snpslmd) Checking the integrity of the license file...
+05/06/2021 02:00:01 (snpslmd) Valid SSST feature found.
+05/06/2021 02:00:01 (snpslmd) Licensed to Quasistatics Inc.
+05/06/2021 02:00:01 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 4/20/2021
+05/06/2021 02:00:01 (snpslmd) ------------------------------------------------------------------
+05/06/2021 02:00:01 (snpslmd) INFO: Server WAN NC data enabled
+05/06/2021 02:00:01 (snpslmd) [SCL] Running on AWS Cloud Platform.
+ 2:00:01 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+ 2:00:01 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+ 2:00:01 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Start-Date: Thu May 06 2021 02:00:01 UTC
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) PID: 4090626
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) 
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: Yes
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: 11.16.4.0
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) 
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Listening port: 34387
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) 
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Amazon EC2
+ 2:00:01 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 2:00:19 (snpslmd) TCP_NODELAY NOT enabled
+ 2:00:31 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [4090694@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 2:01:06 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [4091049@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 2:01:06 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [4091049@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 2:01:06 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [4091049@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 2:01:06 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [4091049@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 2:01:44 (snpslmd) UNSUPPORTED: "Verdi" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalsumonbose79148946] (No such feature exists. (-5,346))
+ 2:01:44 (snpslmd) OUT: "VERDI-ULTRA" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalsumonbose79148946] 
+ 2:01:50 (snpslmd) OUT: "VCSRuntime_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620266510] 
+ 2:02:15 (snpslmd) IN: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [4090694@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 2:02:16 (snpslmd) IN: "VCSRuntime_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620266510] 
+ 2:02:17 (snpslmd) IN: "VERDI-ULTRA" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalsumonbose79148946] 
+ 2:12:37 (lmgrd) SHUTDOWN request from centos at node ip-172-31-33-1.us-east-2.compute.internal
+ 2:12:37 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+ 2:12:37 (lmgrd) Shutting down snpslmd pid=4090626 because of signal 15
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) Time: Thu May 06 2021 02:12:37 UTC
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:12:37 UTC,#4,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:12:37 UTC,#4,(centos,ip-172-31-33-1.us-east-2.compute,74)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:02:17 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:02:16 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:02:15 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:02:09 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:01:50 UTC,#7,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:01:50 UTC,#7,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:01:50 UTC,#7,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu May 06 2021 02:01:50 UTC,#7,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) Time: Thu May 06 2021 02:12:37 UTC
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:00:19 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:00:19 UTC,#4,(centos,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:00:19 UTC,#4,(centos,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:00:54 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:00:54 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute,75)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:00:54 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:00:54 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:01:06 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:01:44 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu May 06 2021 02:01:44 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) Time: Thu May 06 2021 02:12:37 UTC
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) Peak active connections #7 attempted at Thu May 06 2021 02:01:50 UTC
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) 
+ 2:12:37 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 2:12:37 (snpslmd) Shutdown requested.
+ 2:12:37 (snpslmd) daemon shutdown requested - shutting down
+ 2:12:37 (lmgrd) Shut down FlexNet snpslmd license server system on machine ip-172-31-33-1.us-east-2.compute.internal
+ 2:12:37 (lmgrd) EXITING DUE TO SIGNAL 15

@@ -1,0 +1,414 @@
+19:50:21 (lmgrd) -----------------------------------------------
+19:50:21 (lmgrd)   Please Note:
+19:50:21 (lmgrd) 
+19:50:21 (lmgrd)   This log is intended for debug purposes only.
+19:50:21 (lmgrd)   In order to capture accurate license
+19:50:21 (lmgrd)   usage data into an organized repository,
+19:50:21 (lmgrd)   please enable report logging. Use Flexera's
+19:50:21 (lmgrd)   software license administration  solution,
+19:50:21 (lmgrd)   FlexNet Manager, to  readily gain visibility
+19:50:21 (lmgrd)   into license usage data and to create
+19:50:21 (lmgrd)   insightful reports on critical information like
+19:50:21 (lmgrd)   license availability and usage. FlexNet Manager
+19:50:21 (lmgrd)   can be fully automated to run these reports on
+19:50:21 (lmgrd)   schedule and can be used to track license
+19:50:21 (lmgrd)   servers and usage across a heterogeneous
+19:50:21 (lmgrd)   network of servers including Windows NT, Linux
+19:50:21 (lmgrd)   and UNIX.
+19:50:21 (lmgrd) 
+19:50:21 (lmgrd) -----------------------------------------------
+19:50:21 (lmgrd) 
+19:50:21 (lmgrd) 
+19:50:21 (lmgrd) Server's System Date and Time: Fri Jul 09 2021 19:50:21 UTC
+19:50:21 (lmgrd) SLOG: Summary LOG statistics is enabled.
+19:50:21 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (7/9/2021)
+19:50:21 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+19:50:21 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+19:50:21 (lmgrd) License file(s): ./admin/license/Jul21.lic
+19:50:21 (lmgrd) lmgrd tcp-port 27020
+19:50:21 (lmgrd) (@lmgrd-SLOG@) ===============================================
+19:50:21 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+19:50:21 (lmgrd) (@lmgrd-SLOG@) Start-Date: Fri Jul 09 2021 19:50:21 UTC
+19:50:21 (lmgrd) (@lmgrd-SLOG@) PID: 2937
+19:50:21 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+19:50:21 (lmgrd) (@lmgrd-SLOG@) 
+19:50:21 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+19:50:21 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+19:50:21 (lmgrd) (@lmgrd-SLOG@) 
+19:50:21 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+19:50:21 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+19:50:21 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ./admin/license/Jul21.lic -l ./admin/logs/Jul21_7.log 
+19:50:21 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ./admin/license/Jul21.lic
+19:50:21 (lmgrd) (@lmgrd-SLOG@) ===============================================
+19:50:21 (lmgrd) Starting vendor daemons ... 
+19:50:21 (lmgrd) Started snpslmd (internet tcp_port 54869 pid 2939)
+19:50:22 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+07/09/2021 19:50:22 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+07/09/2021 19:50:22 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+07/09/2021 19:50:22 (snpslmd) INFO: License sanity check enabled (3600)
+07/09/2021 19:50:22 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+07/09/2021 19:50:22 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=1024 | net.core.somaxconn=128
+
+07/09/2021 19:50:22 (snpslmd) INFO: Cloud detection enabled. 1
+19:50:22 (snpslmd) SLOG: Summary LOG statistics is enabled.
+19:50:22 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+19:50:22 (snpslmd) SLOG: VM Status: 6
+19:50:22 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+19:50:22 (snpslmd) SLOG: TPM Status: 0
+19:50:22 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+19:50:22 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	SSST		
+19:50:22 (snpslmd) ACS		BOA-BRT		DC-Expert	
+19:50:22 (snpslmd) DC-Extension	DC-SDF-Interface DC-Ultra-Features 
+19:50:22 (snpslmd) DC-Ultra-Opt	Design-Budgeting Design-Compiler 
+19:50:22 (snpslmd) Design-Compiler-NXT Design-Vision	DesignWare	
+19:50:22 (snpslmd) DesignWare-LP	DesignWare-VERA Designware-Basic 
+19:50:22 (snpslmd) FAS-COSIM	FSPRO2XSIM	Formality	
+19:50:22 (snpslmd) Formality-Advanced Formality-E1	Formality-Ultra 
+19:50:22 (snpslmd) Galaxy-Common	GalaxyConstraint HDL		
+19:50:22 (snpslmd) HDL-Compiler	ICCompilerII	ICCompilerII-4	
+19:50:22 (snpslmd) ICCompilerIIs-Shell ICValidator-Live ICValidator-Manager 
+19:50:22 (snpslmd) ICValidator-Workbench ICValidator2-CompareEngine ICValidator2-GeometryEngine 
+19:50:22 (snpslmd) Library-Compiler MCE-Base	MDataPrep	
+19:50:22 (snpslmd) MDynLink	Milkyway	Milkyway-Interface 
+19:50:22 (snpslmd) Power-Optimization PrimePower	PrimeTime	
+19:50:22 (snpslmd) PrimeTime-SI	RTL-Power-Analysis STAR-RC2-NETLIST 
+19:50:22 (snpslmd) STAR-RC2-PROBER STAR-RC2-TCAD	STAR-RC2_ULTRA_MANAGER 
+19:50:22 (snpslmd) SynLib-Eval	SynopsysCustomAdvancedPlus SynopsysCustomSAE 
+19:50:22 (snpslmd) Test-CTL-Model	Test-Compiler	Test-Core-Wrapper 
+19:50:22 (snpslmd) Test-DFTC-TMAX	Test-LBIST-Synthesis Test-MBIST-Integration 
+19:50:22 (snpslmd) Test-RTL-Check	Test-RTL-Tristate Test-STDVR	
+19:50:22 (snpslmd) Test-ScanRoute	Test-Validate	VC-CDC-BASE	
+19:50:22 (snpslmd) VC-LINT-BASE	VC-STATIC-COMPILE VC-STATIC-LINT	
+19:50:22 (snpslmd) VC-STATIC-VERDI-PLUGIN VCSCompiler_Net VCSMXCompiler_Net 
+19:50:22 (snpslmd) VCSMXRunTime_Net VCSRuntime_Net	VCSTools_Net	
+19:50:22 (snpslmd) VCSUltraCompiler_Net VCSUltraRuntime_Net VERDI-ULTRA	
+19:50:22 (snpslmd) VIP-AMBA-AHB-SVT VIP-AMBA-APB-SVT VIP-AMBA-AXI-SVT 
+19:50:22 (snpslmd) VT_CoverageURG	VT_VCS_AMS_AddOnRuntime VT_VCS_AMS_CoSimRuntime 
+19:50:22 (snpslmd) Verdi_HwSwDebug adv_checker	cdc_adv_checker 
+19:50:22 (snpslmd) cdsaawaves	checker		encrypt		
+19:50:22 (snpslmd) fullhspice	hspice		hspice3des	
+19:50:22 (snpslmd) hspice_api	hspicecmidev	hspicecmirt	
+19:50:22 (snpslmd) metaencrypt3des nanosim/ace_cosim primewave	
+19:50:22 (snpslmd) simif		spice_explorer	spice_parser	
+19:50:22 (snpslmd) sx_cdslink	sx_cdslink_ext	sx_data		
+19:50:22 (snpslmd) xsim		
+19:50:22 (snpslmd) 
+19:50:22 (snpslmd) Licenses are case sensitive for TE_CATS
+19:50:22 (snpslmd) 
+19:50:22 (snpslmd) EXTERNAL FILTERS are OFF
+19:50:22 (lmgrd) snpslmd using TCP-port 54869
+19:50:22 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+07/09/2021 19:50:22 (snpslmd) ------------------------------------------------------------------
+07/09/2021 19:50:22 (snpslmd) Checking the integrity of the license file...
+07/09/2021 19:50:22 (snpslmd) Valid SSST feature found.
+07/09/2021 19:50:22 (snpslmd) Licensed to Quasistatics Inc.
+07/09/2021 19:50:22 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 7/7/2021
+07/09/2021 19:50:22 (snpslmd) ------------------------------------------------------------------
+07/09/2021 19:50:22 (snpslmd) INFO: Server WAN NC data enabled
+07/09/2021 19:50:22 (snpslmd) [SCL] Running on AWS Cloud Platform.
+19:50:22 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+19:50:22 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+19:50:22 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+19:50:22 (snpslmd) (@snpslmd-SLOG@) ===============================================
+19:50:22 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Start-Date: Fri Jul 09 2021 19:50:22 UTC
+19:50:22 (snpslmd) (@snpslmd-SLOG@) PID: 2939
+19:50:22 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+19:50:22 (snpslmd) (@snpslmd-SLOG@) 
+19:50:22 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: Yes
+19:50:22 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: 11.16.4.0
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+19:50:22 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+19:50:22 (snpslmd) (@snpslmd-SLOG@) 
+19:50:22 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Listening port: 54869
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+19:50:22 (snpslmd) (@snpslmd-SLOG@) 
+19:50:22 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+19:50:22 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+19:50:22 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+19:50:22 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Amazon EC2
+19:50:22 (snpslmd) (@snpslmd-SLOG@) ===============================================
+19:54:44 (snpslmd) TCP_NODELAY NOT enabled
+19:56:20 (snpslmd) OUT: "VCSCompiler_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860580] 
+19:56:21 (snpslmd) IN: "VCSCompiler_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860580] 
+19:56:21 (snpslmd) OUT: "VCSCompiler_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860581] 
+19:56:22 (snpslmd) IN: "VCSCompiler_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860581] 
+19:56:24 (snpslmd) OUT: "VCSRuntime_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860584] 
+19:56:24 (snpslmd) OUT: "VT_VCS_AMS_CoSimRuntime" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860584] 
+19:56:26 (snpslmd) UNSUPPORTED: "FS-COSIM" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+19:56:26 (snpslmd) OUT: "FAS-COSIM" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+19:56:26 (snpslmd) UNSUPPORTED: "CKTSIMSPICE" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+19:56:26 (snpslmd) UNSUPPORTED: "FSSPICE" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+19:56:26 (snpslmd) UNSUPPORTED: "CKTSIMPROFS" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+19:56:26 (snpslmd) UNSUPPORTED: "FSPRO" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+19:56:26 (snpslmd) OUT: "FSPRO2XSIM" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+19:56:26 (snpslmd) OUT: "xsim" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+19:57:48 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [5707@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+20:03:58 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_22636_1] (No such feature exists. (-5,346))
+20:03:58 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_22636_1] 
+20:03:59 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_22636_1] 
+20:04:18 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_22636_1] 
+20:04:18 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_22636_1] 
+20:09:38 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_29541_1] (No such feature exists. (-5,346))
+20:09:38 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_29541_1] 
+20:09:41 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_29541_1] 
+20:10:15 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_31980_1] 
+20:10:15 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_31980_1] 
+20:10:20 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_29541_1] 
+20:10:20 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_29541_1] 
+20:14:26 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_35630_1] (No such feature exists. (-5,346))
+20:14:26 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_35630_1] 
+20:14:28 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_35630_1] 
+20:15:01 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_36997_1] 
+20:15:01 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_36997_1] 
+20:15:05 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_35630_1] 
+20:15:05 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_35630_1] 
+20:15:47 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_38136_1] (No such feature exists. (-5,346))
+20:15:47 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_38136_1] 
+20:15:49 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_38136_1] 
+20:16:17 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_39282_1] 
+20:16:17 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_39282_1] 
+20:16:20 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_38136_1] 
+20:16:20 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_38136_1] 
+20:22:05 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_44044_1] (No such feature exists. (-5,346))
+20:22:05 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_44044_1] 
+20:22:07 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_44044_1] 
+20:22:37 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_45270_1] 
+20:22:37 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_45270_1] 
+20:22:40 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_44044_1] 
+20:22:40 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_44044_1] 
+20:25:59 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_48324_1] (No such feature exists. (-5,346))
+20:25:59 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_48324_1] 
+20:26:01 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_48324_1] 
+20:26:30 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_49513_1] 
+20:26:30 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_49513_1] 
+20:26:32 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_48324_1] 
+20:26:32 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_48324_1] 
+20:29:37 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_52280_1] (No such feature exists. (-5,346))
+20:29:37 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_52280_1] 
+20:29:39 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_52280_1] 
+20:30:00 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_53284_1] 
+20:30:00 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_53284_1] 
+20:30:03 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_52280_1] 
+20:30:03 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_52280_1] 
+20:33:29 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_56351_1] (No such feature exists. (-5,346))
+20:33:29 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_56351_1] 
+20:33:31 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_56351_1] 
+20:34:01 (snpslmd) OUT: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_57598_1] 
+20:34:01 (snpslmd) IN: "ICValidator2-CompareEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_57598_1] 
+20:34:04 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_56351_1] 
+20:34:04 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_56351_1] 
+20:34:44 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_58862_1] (No such feature exists. (-5,346))
+20:34:44 (snpslmd) OUT: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_58862_1] 
+20:34:46 (snpslmd) OUT: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_58862_1] 
+20:35:33 (snpslmd) IN: "ICValidator-Manager" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_58862_1] 
+20:35:33 (snpslmd) IN: "ICValidator2-GeometryEngine" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_58862_1] 
+20:40:11 (snpslmd) IN: "FAS-COSIM" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+20:40:11 (snpslmd) IN: "FSPRO2XSIM" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+20:40:11 (snpslmd) IN: "xsim" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+23:50:22 (snpslmd) (@snpslmd-SLOG@) ===============================================
+23:50:22 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+23:50:22 (snpslmd) (@snpslmd-SLOG@) Time: Fri Jul 09 2021 23:50:22 UTC
+23:50:22 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:50:12 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:47:07 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:44:42 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:44:05 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:41:01 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:38:01 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:35:00 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:34:42 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:31:56 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 09 2021 23:28:54 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 
+23:50:22 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+23:50:22 (snpslmd) (@snpslmd-SLOG@) Time: Fri Jul 09 2021 23:50:22 UTC
+23:50:22 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:54:44 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:54:44 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:20 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:20 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:21 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:21 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:24 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:24 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:26 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:26 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 
+23:50:22 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+23:50:22 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+23:50:22 (snpslmd) (@snpslmd-SLOG@) Time: Fri Jul 09 2021 23:50:22 UTC
+23:50:22 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 
+23:50:22 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+23:50:22 (snpslmd) (@snpslmd-SLOG@) Peak active connections #14 attempted at Fri Jul 09 2021 20:30:00 UTC
+23:50:22 (snpslmd) (@snpslmd-SLOG@) 
+23:50:22 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 1:50:24 (lmgrd) TIMESTAMP 7/10/2021
+ 1:55:22 (snpslmd) TIMESTAMP 7/10/2021
+ 2:11:52 (snpslmd) IN: "VCSRuntime_Net" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860584] 
+ 2:11:52 (snpslmd) IN: "VT_VCS_AMS_CoSimRuntime" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1625860584] 
+ 2:25:03 (snpslmd) UNSUPPORTED: "sx_wva" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+ 2:25:03 (snpslmd) OUT: "spice_explorer" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+ 2:45:53 (snpslmd) IN: "spice_explorer" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 03:50:23 UTC
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 03:44:42 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 03:34:42 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 03:24:42 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 03:14:42 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 03:04:42 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 02:54:42 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 02:45:03 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 02:44:42 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Sat Jul 10 2021 02:40:03 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Sat Jul 10 2021 02:35:03 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 03:50:23 UTC
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:54:44 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:54:44 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:20 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute,76)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:20 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:21 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:21 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:24 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:24 UTC,#4,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:26 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 09 2021 19:56:26 UTC,#6,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) Time: Sat Jul 10 2021 03:50:23 UTC
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) Peak active connections #14 attempted at Fri Jul 09 2021 20:30:00 UTC
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) 
+ 3:50:23 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 3:56:57 (snpslmd) Wrong hostid on SERVER line for license file:
+ 3:56:57 (snpslmd) 	./admin/license/Jul21.lic
+ 3:56:57 (snpslmd) SERVER line says VM_UUID=I-03F13A8C6BD64EF16, hostid is (Can't get hostid of type 181 [The VM Host ID is not available.  (-215,14704)])
+ 3:56:57 (snpslmd) Invalid hostid on SERVER line
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature ACS(4FB2FC67791434CAA020)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature adv_checker(00C8 6272 79DC 2245 )
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature BOA-BRT(6FC28C67F127353E1574)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature cdc_adv_checker(00BC 21AA 1BE3 41FE )
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature cdsaawaves(CF924C171CE127C68BF0)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature checker(0071 8B11 2886 15D7 )
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DC-Expert(CF423C57665E51FBFBDA)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DC-Extension(CF224CA7D52349FC6D75)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DC-SDF-Interface(1F123C571710D88AD367)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DC-Ultra-Features(FF028CE72B3F96B58F3D)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DC-Ultra-Opt(0F320CD78F7F6F42706F)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Design-Budgeting(6F125CD7CA3E8E383432)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Design-Compiler(EF629C672B2F4E3761A8)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Design-Compiler-NXT(EFE2BCB70B8E1AEF247A)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Design-Vision(3F62DCF7E6415111A849)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DesignWare(1F521C07440FD7C3BC16)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Designware-Basic(DF020CB74B3FE4F8AA6F)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DesignWare-LP(EF92BC57372177D1FA7B)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature DesignWare-VERA(8F626C67E91BCCECC6AF)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature encrypt(6F524C27065CAE1F1179)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature FAS-COSIM(6FC2AC078A27BC4636BB)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Formality(3FF2DC777A79D1067E48)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Formality-Advanced(1F326C473F6CD54EF050)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Formality-E1(4FA21C970BC573B0945B)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Formality-Ultra(AFF2CC37E1CC796394ED)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature FSPRO2XSIM(1F62DC07174F3978A63C)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature fullhspice(0F22CC07296731434E52)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Galaxy-Common(DFC2CCA72C07D4051445)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature GalaxyConstraint(0FC2CCE71BE39DC8549E)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature HDL(EF521CE7433BFD68F2C2)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature HDL-Compiler(AFD21C67E5AEB9B1B0C0)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature hspice(FFB29C67C53AA4576D6D)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature hspice3des(9F521CE73331676C4560)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature hspicecmidev(9F121C17EFC0D46730DE)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature hspicecmirt(AFD28C27F8A5D3F88249)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature hspice_api(CFC28C679C140C0882D4)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature ICCompilerII(5FA29CD714E55192FBFB)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature ICCompilerII-4(3F129CF737897E721EB8)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature ICCompilerIIs-Shell(3FF24CE7184A0B63ED96)
+ 3:56:57 (snpslmd) Disabling 12 licenses from feature ICValidator-Live(DFC22C77918FB3439ECA)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature ICValidator-Manager(9FA2BC775766AC9AC49F)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature ICValidator-Workbench(9F82AC27216302E8143C)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature ICValidator2-CompareEngine(2F32EC174C9840D5591D)
+ 3:56:57 (snpslmd) Disabling 45 licenses from feature ICValidator2-GeometryEngine(8FA26C9764874F3546C3)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Library-Compiler(CF527C47145FA1A60AC6)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature MCE-Base(AF124C278C25DFC43F38)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature MDataPrep(1F12FC17472E220034CB)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature MDynLink(EF82ECC71FAB8663DE4C)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature metaencrypt3des(6FE21CA79EA39D02E234)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Milkyway(4F827CC76BE6BAF7800F)
+ 3:56:57 (snpslmd) Disabling 6 licenses from feature Milkyway-Interface(6F425CE70329705FE108)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature nanosim/ace_cosim(EFE2CCB72B5716435F87)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Power-Optimization(4FC2EC97FE4037F927CD)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature PrimePower(FFD2FC67D7A9BF97D9E0)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature PrimeTime(FFE22C5747B61569EBA3)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature PrimeTime-SI(4F02AC07BA7C4C3DC297)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature primewave(AF32FC374BD928046553)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature RTL-Power-Analysis(8FA27C179CE2B9EF0E51)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature simif(6F82BC174C29222B7262)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature spice_parser(8F12EC277D944295C2D4)
+ 3:56:57 (snpslmd) Disabling 1 license from feature SSST(BF02FC172BF069B4291F)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature STAR-RC2-NETLIST(DFB2BCA79528A70EF2E9)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature STAR-RC2-PROBER(0F123CF7A6C35144837E)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature STAR-RC2-TCAD(6F626C0779E9EBE6B9CC)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature STAR-RC2_ULTRA_MANAGER(0F121C17A1495CA2020F)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature sx_cdslink(37501F9C99DA8DE6)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature sx_cdslink_ext(3B42E3E8481A85F6)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature sx_data(91885CF2CCC49ABC)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature SynLib-Eval(4F72BCF784F60FD08910)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature SynopsysCustomAdvancedPlus(8FD2BC37A39F1556DECB)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature SynopsysCustomSAE(AF226C97D4C376416385)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-Compiler(7F42BCC701B90169CA84)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-Core-Wrapper(3FF2BCD793A0E7B7CE45)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-CTL-Model(0FD2BCE7536198332A74)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-DFTC-TMAX(3FA21C07C686516FC310)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-LBIST-Synthesis(6F52DCC72DC8069104BF)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-MBIST-Integration(8F62BC27107A3599D811)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-RTL-Check(0F124CC7CB9B163DD701)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-RTL-Tristate(6F12BC87F38AC640B430)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-ScanRoute(5F123CD7E0CCDD50BD3A)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-STDVR(3FE21C97A76C29D8458E)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature Test-Validate(CF82DC57EB02902FB42E)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature VC-CDC-BASE(003E 21E5 DE43 C037 )
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature VC-LINT-BASE(008C 5E3F F803 7944 )
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature VC-STATIC-COMPILE(005C ABDD 1710 87C0 )
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature VC-STATIC-LINT(0060 6B13 104E A671 )
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature VC-STATIC-VERDI-PLUGIN(00AB 310C 8E3F 3DB1 )
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VCSCompiler_Net(6F12FC27A4EC5DC95A80)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VCSMXCompiler_Net(AF824C771AD922E386B8)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VCSMXRunTime_Net(EF32BC3781511F1C31B2)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VCSRuntime_Net(FFD27C17264A29C66CDE)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VCSTools_Net(8F927C771C240CE2334E)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VCSUltraCompiler_Net(5F521CA748F32437E9E9)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VCSUltraRuntime_Net(1F522C97C94B5EAEEA3D)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VERDI-ULTRA(8F02FC17A310F0EDCC5B)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature Verdi_HwSwDebug(0F927CF7B8879495ACA2)
+ 3:56:57 (snpslmd) Disabling 6 licenses from feature VIP-AMBA-AHB-SVT(9F028C974D2AEEA22CD2)
+ 3:56:57 (snpslmd) Disabling 6 licenses from feature VIP-AMBA-APB-SVT(CFC2AC87FDAAC613F4D9)
+ 3:56:57 (snpslmd) Disabling 6 licenses from feature VIP-AMBA-AXI-SVT(3FC24CF7269DC6B1A81D)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature VT_CoverageURG(3F92AC373E3AFDB3EC47)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature VT_VCS_AMS_AddOnRuntime(EF321C17D29628102C3D)
+ 3:56:57 (snpslmd) Disabling 5 licenses from feature VT_VCS_AMS_CoSimRuntime(FFA2ECA736E660476B9B)
+ 3:56:57 (snpslmd) Disabling 3 licenses from feature xsim(BF421C17DE87D0E23AC9)
+ 3:58:57 (snpslmd) No valid hostids, exiting
+ 3:58:57 (snpslmd) EXITING DUE TO SIGNAL 34 Exit reason 2
+ 3:58:57 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [5707@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 3:58:57 (lmgrd) snpslmd exited with status 34 (Invalid host)
+ 3:58:57 (lmgrd) Please correct problem and restart daemons
+ 4:01:15 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+ 4:01:15 (lmgrd) EXITING DUE TO SIGNAL 15

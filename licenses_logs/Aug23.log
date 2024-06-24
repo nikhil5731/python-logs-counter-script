@@ -1,0 +1,251 @@
+12:47:07 (lmgrd) -----------------------------------------------
+12:47:07 (lmgrd)   Please Note:
+12:47:07 (lmgrd) 
+12:47:07 (lmgrd)   This log is intended for debug purposes only.
+12:47:07 (lmgrd)   In order to capture accurate license
+12:47:07 (lmgrd)   usage data into an organized repository,
+12:47:07 (lmgrd)   please enable report logging. Use Flexera's
+12:47:07 (lmgrd)   software license administration  solution,
+12:47:07 (lmgrd)   FlexNet Manager, to  readily gain visibility
+12:47:07 (lmgrd)   into license usage data and to create
+12:47:07 (lmgrd)   insightful reports on critical information like
+12:47:07 (lmgrd)   license availability and usage. FlexNet Manager
+12:47:07 (lmgrd)   can be fully automated to run these reports on
+12:47:07 (lmgrd)   schedule and can be used to track license
+12:47:07 (lmgrd)   servers and usage across a heterogeneous
+12:47:07 (lmgrd)   network of servers including Windows NT, Linux
+12:47:07 (lmgrd)   and UNIX.
+12:47:07 (lmgrd) 
+12:47:07 (lmgrd) -----------------------------------------------
+12:47:07 (lmgrd) 
+12:47:07 (lmgrd) 
+12:47:07 (lmgrd) Server's System Date and Time: Thu Oct 12 2023 12:47:07 UTC
+12:47:07 (lmgrd) SLOG: Summary LOG statistics is enabled.
+12:47:07 (lmgrd) The license server manager (lmgrd) running as root:
+12:47:07 (lmgrd) 	This is a potential security problem
+12:47:07 (lmgrd) 	and is not recommended.
+12:47:22 (lmgrd) The TCP port number in the license, 27020, is already in use.
+12:47:22 (lmgrd) Possible causes: 
+12:47:22 (lmgrd)    1) The license server manager (lmgrd) is already running for this license.
+12:47:22 (lmgrd)    2) The OS has not "cleared" this port since lmgrd died.
+12:47:22 (lmgrd)    3) Another process is using this port number (unlikely).
+12:47:22 (lmgrd) Solutions:
+12:47:22 (lmgrd)    1) Make sure lmgrd and all vendor daemons for this 
+12:47:22 (lmgrd)       license are not running.
+12:47:22 (lmgrd)    2) You may have to wait for the OS to clear this port.
+12:47:22 (lmgrd) Retrying for about 5 more minutes
+12:47:40 (lmgrd) Still trying... 
+12:47:58 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (10/12/2023)
+12:47:58 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+12:47:58 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+12:47:58 (lmgrd) License file(s): ./admin/license/Aug2023_1.lic
+12:47:58 (lmgrd) lmgrd tcp-port 27020
+12:47:58 (lmgrd) (@lmgrd-SLOG@) ===============================================
+12:47:58 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+12:47:58 (lmgrd) (@lmgrd-SLOG@) Start-Date: Thu Oct 12 2023 12:47:58 UTC
+12:47:58 (lmgrd) (@lmgrd-SLOG@) PID: 60107
+12:47:58 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+12:47:58 (lmgrd) (@lmgrd-SLOG@) 
+12:47:58 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+12:47:58 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+12:47:58 (lmgrd) (@lmgrd-SLOG@) 
+12:47:58 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+12:47:58 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+12:47:58 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ./admin/license/Aug2023_1.lic -l ./admin/logs/Aug23.log 
+12:47:58 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ./admin/license/Aug2023_1.lic
+12:47:58 (lmgrd) (@lmgrd-SLOG@) ===============================================
+12:47:58 (lmgrd) Starting vendor daemons ... 
+12:47:58 (lmgrd) Started snpslmd (internet tcp_port 38831 pid 61898)
+12:47:58 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+10/12/2023 12:47:58 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+10/12/2023 12:47:58 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+10/12/2023 12:47:58 (snpslmd) INFO: License sanity check enabled (3600)
+10/12/2023 12:47:58 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+10/12/2023 12:47:58 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=2048 | net.core.somaxconn=128
+
+10/12/2023 12:47:58 (snpslmd) INFO: Cloud detection enabled. 1
+12:47:58 (snpslmd) SLOG: Summary LOG statistics is enabled.
+12:47:58 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+12:47:58 (snpslmd) SLOG: VM Status: 6
+12:47:58 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+12:47:58 (snpslmd) SLOG: TPM Status: 0
+12:47:58 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+12:47:58 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	
+12:47:58 (snpslmd) VC-SG-3-Apex-Base-Pkg (consisting of:		system_verilog	
+12:47:58 (snpslmd) BasePolicySO	oemunlock	checker		
+12:47:58 (snpslmd) save_restore	gui		mixed		
+12:47:58 (snpslmd) verilog		VC-STATIC-LINT	vhdl		
+12:47:58 (snpslmd) VC-LINT-BASE	VC-SG-BASE)	
+12:47:58 (snpslmd) VC-SG-3-Apex-Elite-Pkg (consisting of:		cdc_soc_abstraction 
+12:47:58 (snpslmd) cdc_adv_checker EUCLIDE-BTCH-TB Advanced_CDC	
+12:47:58 (snpslmd) VC-SG-ELITE	VC-CDC-BASE)	
+12:47:58 (snpslmd) VC-SG-3-Apex-Pkg (consisting of:		VC-CDC-NETLIST	
+12:47:58 (snpslmd) VC-SG-APEX	VC-STATIC-CDC-DEBUG-ML VC-STATIC-VDIFF 
+12:47:58 (snpslmd) VC-CDC-ADV)	
+12:47:58 (snpslmd) VCS-3-Apex-Base-Compile-Pkg (consisting of:		VCS-BASE-COMPILE 
+12:47:58 (snpslmd) VCSCompiler_Net) 
+12:47:58 (snpslmd) VCS-3-Apex-Base-Runtime-Pkg (consisting of:		VCS-BASE-RUNTIME 
+12:47:58 (snpslmd) VCSRuntime_Net)	
+12:47:58 (snpslmd) VCS-3-Apex-Compile-Pkg (consisting of:		VCS-APEX-COMPILE 
+12:47:58 (snpslmd) VCSUltraCompiler_Net) 
+12:47:58 (snpslmd) VCS-3-Apex-Elite-Compile-Pkg (consisting of:		VCSMXCompiler_Net 
+12:47:58 (snpslmd) VCS-ELITE-COMPILE) 
+12:47:58 (snpslmd) VCS-3-Apex-Elite-Runtime-Pkg (consisting of:		VCS-ELITE-RUNTIME 
+12:47:58 (snpslmd) VCSMXRunTime_Net) 
+12:47:58 (snpslmd) VCS-3-Apex-Runtime-Pkg (consisting of:		VCS-APEX-RUNTIME 
+12:47:58 (snpslmd) VCSUltraRuntime_Net) 
+12:47:58 (snpslmd) Verdi-3-Apex-Pkg (consisting of:		VERDI-ULTRA	
+12:47:58 (snpslmd) VERDI-APEX	EUCLIDE-GUI	EUCLIDE-ELITE	
+12:47:58 (snpslmd) EUCLIDE-INTR-LINT) SSS		ACS		
+12:47:58 (snpslmd) BOA-BRT		DC-Expert	DC-Extension	
+12:47:58 (snpslmd) DC-Graphical	DC-SDF-Interface DC-Ultra-Features 
+12:47:58 (snpslmd) DC-Ultra-Opt	Design-Budgeting Design-Compiler 
+12:47:58 (snpslmd) Design-Compiler-NXT Design-Vision	DesignWare	
+12:47:58 (snpslmd) DesignWare-LP	DesignWare-VERA Designware-Basic 
+12:47:58 (snpslmd) Digital-AF	Digital-NX-AGP	FAS-COSIM	
+12:47:58 (snpslmd) FSPRO2XSIM	Formality	Formality-Advanced 
+12:47:58 (snpslmd) Formality-E1	Formality-Ultra Galaxy-Common	
+12:47:58 (snpslmd) GalaxyConstraint HDL		HDL-Compiler	
+12:47:58 (snpslmd) ICCompilerII-8	ICCompilerII-8-AdvGeo ICCompilerII-ML 
+12:47:58 (snpslmd) ICCompilerII-NX ICCompilerII-NX-AdvGeo ICCompilerIIs-Shell 
+12:47:58 (snpslmd) ICValidator-Live ICValidator-Manager ICValidator-Workbench 
+12:47:58 (snpslmd) ICValidator2-CompareEngine ICValidator2-GeometryEngine LMCSwift_Net	
+12:47:58 (snpslmd) Library-Compiler MCE-Base	MDataPrep	
+12:47:58 (snpslmd) MDynLink	Milkyway	Milkyway-Interface 
+12:47:58 (snpslmd) Power-Optimization PrimePower	PrimeTime	
+12:47:58 (snpslmd) PrimeTime-SI	RTL-Power-Analysis SG-Verdi-Plugin 
+12:47:58 (snpslmd) SNPS_INDESIGN_RH_RAIL STAR-RC2-AGP	STAR-RC2-NETLIST 
+12:47:58 (snpslmd) STAR-RC2-PROBER STAR-RC2-TCAD	STAR-RC2_PARASITIC_EXPLORER 
+12:47:58 (snpslmd) STAR-RC2_ULTRAPLUS STAR-RC2_ULTRAPLUS_CUSTOM_IACT STAR-RC2_ULTRA_MANAGER 
+12:47:58 (snpslmd) SynLib-Eval	SynopsysCustomAdvancedPlus SynopsysCustomSAE 
+12:47:58 (snpslmd) Test-CTL-Model	Test-Compiler	Test-Core-Wrapper 
+12:47:58 (snpslmd) Test-DFTC-TMAX	Test-LBIST-Synthesis Test-MBIST-Integration 
+12:47:58 (snpslmd) Test-RTL-Check	Test-RTL-Tristate Test-STDVR	
+12:47:58 (snpslmd) Test-ScanRoute	Test-Validate	VC-STATIC-COMPILE 
+12:47:58 (snpslmd) VC-STATIC-VERDI-PLUGIN VCSTools_Net	VERDI-APEX-AN	
+12:47:58 (snpslmd) VERDI-APEX-RT	VERDI_COMPILE	VHDL-Compiler	
+12:47:58 (snpslmd) VIP-AMBA-AHB-SVT VIP-AMBA-APB-SVT VIP-AMBA-AXI-SVT 
+12:47:58 (snpslmd) VT_CPP_SOLVER	VT_CoverageURG	VT_VCS_AMS_AddOnRuntime 
+12:47:58 (snpslmd) VT_VCS_AMS_CoSimRuntime adv_checker	cdsaawaves	
+12:47:58 (snpslmd) encrypt		fullhspice	hspice		
+12:47:58 (snpslmd) hspice3des	hspice_api	hspicecmidev	
+12:47:58 (snpslmd) hspicecmirt	lint_func	lint_soc_abstraction 
+12:47:58 (snpslmd) metaencrypt3des mvdbgen		mvsim		
+12:47:58 (snpslmd) nanosim/ace_cosim primewave	primewave_re	
+12:47:58 (snpslmd) simif		spice_explorer	spice_explorer	
+12:47:58 (snpslmd) spice_parser	sx_cdslink	sx_cdslink_ext	
+12:47:58 (snpslmd) sx_data		turbo_struct	xsim		
+12:47:58 (snpslmd) 
+12:47:58 (snpslmd) Licenses are case sensitive for TE_CATS
+12:47:58 (snpslmd) 
+12:47:59 (snpslmd) EXTERNAL FILTERS are OFF
+12:47:59 (lmgrd) snpslmd using TCP-port 38831
+12:47:59 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+10/12/2023 12:47:59 (snpslmd) ------------------------------------------------------------------
+10/12/2023 12:47:59 (snpslmd) Checking the integrity of the license file...
+10/12/2023 12:47:59 (snpslmd) Valid SSS feature found.
+10/12/2023 12:47:59 (snpslmd) The feature is needed to enable the other keys in your license file.
+10/12/2023 12:47:59 (snpslmd) Licensed to Quasistatics Inc.
+10/12/2023 12:47:59 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 8/4/2023
+10/12/2023 12:47:59 (snpslmd) ------------------------------------------------------------------
+10/12/2023 12:47:59 (snpslmd) INFO: Server WAN NC data enabled
+10/12/2023 12:47:59 (snpslmd) [SCL] Running on AWS Cloud Platform.
+12:47:59 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+12:47:59 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+12:47:59 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+12:47:59 (snpslmd) (@snpslmd-SLOG@) ===============================================
+12:47:59 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Start-Date: Thu Oct 12 2023 12:47:59 UTC
+12:47:59 (snpslmd) (@snpslmd-SLOG@) PID: 61898
+12:47:59 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+12:47:59 (snpslmd) (@snpslmd-SLOG@) 
+12:47:59 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: Yes
+12:47:59 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: 11.16.4.0
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+12:47:59 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+12:47:59 (snpslmd) (@snpslmd-SLOG@) 
+12:47:59 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Listening port: 38831
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+12:47:59 (snpslmd) (@snpslmd-SLOG@) 
+12:47:59 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+12:47:59 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+12:47:59 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+12:47:59 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Amazon EC2
+12:47:59 (snpslmd) (@snpslmd-SLOG@) ===============================================
+12:47:59 (snpslmd) TCP_NODELAY NOT enabled
+12:47:59 (snpslmd) UNSUPPORTED: "SynopsysCustomViewer" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [60736@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (No such feature exists. (-5,346))
+12:49:27 (snpslmd) OUT: "mvdbgen" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697114967] 
+12:49:27 (snpslmd) OUT: "VCS-3-Apex-Base-Compile-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697114967] 
+12:49:27 (snpslmd) OUT: "VCSCompiler_Net" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697114967] 
+12:49:39 (snpslmd) IN: "mvdbgen" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697114967] 
+12:49:39 (snpslmd) IN: "VCSCompiler_Net" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697114967] 
+12:49:39 (snpslmd) IN: "VCS-3-Apex-Base-Compile-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697114967] 
+12:50:50 (snpslmd) OUT: "VCS-3-Apex-Base-Compile-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115050] 
+12:50:50 (snpslmd) OUT: "VCSCompiler_Net" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115050] 
+12:50:53 (snpslmd) IN: "VCS-3-Apex-Base-Compile-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115050] 
+12:50:53 (snpslmd) IN: "VCSCompiler_Net" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115050] 
+12:51:52 (snpslmd) UNSUPPORTED: "Verdi" (PORT_AT_HOST_PLUS   ) AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalAbhishekSarkar86434443] (No such feature exists. (-5,346))
+12:51:52 (snpslmd) OUT: "Verdi-3-Apex-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalAbhishekSarkar86434443] 
+12:51:52 (snpslmd) OUT: "VERDI-ULTRA" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalAbhishekSarkar86434443] 
+12:51:55 (snpslmd) OUT: "VCS-3-Apex-Base-Runtime-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115115] 
+12:51:55 (snpslmd) OUT: "VCSRuntime_Net" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115115] 
+12:51:56 (snpslmd) OUT: "mvsim" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115115] 
+12:55:31 (lmgrd) SHUTDOWN request from centos at node ip-172-31-33-1.us-east-2.compute.internal
+12:55:31 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+12:55:31 (lmgrd) Shutting down snpslmd pid=61898 because of signal 15
+12:55:31 (snpslmd) (@snpslmd-SLOG@) ===============================================
+12:55:31 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+12:55:31 (snpslmd) (@snpslmd-SLOG@) Time: Thu Oct 12 2023 12:55:31 UTC
+12:55:31 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:55:31 UTC,#5,(root,ip-172-31-33-1.us-east-2.compute.internal,76)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:55:31 UTC,#5,(root,ip-172-31-33-1.us-east-2.compute,76)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:55:14 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:54:51 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:53:51 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:53:26 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:52:51 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:52:23 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:51:56 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,75)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Thu Oct 12 2023 12:51:56 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,75)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 
+12:55:31 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+12:55:31 (snpslmd) (@snpslmd-SLOG@) Time: Thu Oct 12 2023 12:55:31 UTC
+12:55:31 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:47:59 UTC,#3,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:49:27 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,75)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:49:27 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,75)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:49:39 UTC,#3,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:50:50 UTC,#3,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:50:50 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,75)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:51:52 UTC,#3,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:51:52 UTC,#3,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,74)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:51:55 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,75)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Oct 12 2023 12:51:55 UTC,#4,(AbhishekSarkar,ip-172-31-33-1.us-east-2.compute.internal,75)
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 
+12:55:31 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+12:55:31 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+12:55:31 (snpslmd) (@snpslmd-SLOG@) Time: Thu Oct 12 2023 12:55:31 UTC
+12:55:31 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 
+12:55:31 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+12:55:31 (snpslmd) (@snpslmd-SLOG@) Peak active connections #5 attempted at Thu Oct 12 2023 12:51:55 UTC
+12:55:31 (snpslmd) (@snpslmd-SLOG@) 
+12:55:31 (snpslmd) (@snpslmd-SLOG@) ===============================================
+12:55:31 (snpslmd) Shutdown requested.
+12:55:31 (lmgrd) Shut down FlexNet snpslmd license server system on machine ip-172-31-33-1.us-east-2.compute.internal
+12:55:31 (snpslmd) daemon shutdown requested - shutting down
+12:55:31 (snpslmd) IN: "VCS-3-Apex-Base-Runtime-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115115] (SHUTDOWN)
+12:55:31 (snpslmd) IN: "Verdi-3-Apex-Pkg" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalAbhishekSarkar86434443] (SHUTDOWN)
+12:55:31 (snpslmd) IN: "mvsim" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115115] (SHUTDOWN)
+12:55:31 (lmgrd) EXITING DUE TO SIGNAL 15
+12:55:31 (snpslmd) IN: "VERDI-ULTRA" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [ip-172-31-33-1.us-east-2.compute.internalAbhishekSarkar86434443] (SHUTDOWN)
+12:55:31 (snpslmd) IN: "VCSRuntime_Net" AbhishekSarkar@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1697115115] (SHUTDOWN)

@@ -1,0 +1,48 @@
+20:05:36 (lmgrd) -----------------------------------------------
+20:05:36 (lmgrd)   Please Note:
+20:05:36 (lmgrd) 
+20:05:36 (lmgrd)   This log is intended for debug purposes only.
+20:05:36 (lmgrd)   In order to capture accurate license
+20:05:36 (lmgrd)   usage data into an organized repository,
+20:05:36 (lmgrd)   please enable report logging. Use Flexera's
+20:05:36 (lmgrd)   software license administration  solution,
+20:05:36 (lmgrd)   FlexNet Manager, to  readily gain visibility
+20:05:36 (lmgrd)   into license usage data and to create
+20:05:36 (lmgrd)   insightful reports on critical information like
+20:05:36 (lmgrd)   license availability and usage. FlexNet Manager
+20:05:36 (lmgrd)   can be fully automated to run these reports on
+20:05:36 (lmgrd)   schedule and can be used to track license
+20:05:36 (lmgrd)   servers and usage across a heterogeneous
+20:05:36 (lmgrd)   network of servers including Windows NT, Linux
+20:05:36 (lmgrd)   and UNIX.
+20:05:36 (lmgrd) 
+20:05:36 (lmgrd) -----------------------------------------------
+20:05:36 (lmgrd) 
+20:05:36 (lmgrd) 
+20:05:36 (lmgrd) Server's System Date and Time: Fri Apr 14 2023 20:05:36 UTC
+20:05:36 (lmgrd) SLOG: Summary LOG statistics is enabled.
+20:05:36 (lmgrd) The license server manager (lmgrd) running as root:
+20:05:36 (lmgrd) 	This is a potential security problem
+20:05:36 (lmgrd) 	and is not recommended.
+20:05:51 (lmgrd) The TCP port number in the license, 27020, is already in use.
+20:05:51 (lmgrd) Possible causes: 
+20:05:51 (lmgrd)    1) The license server manager (lmgrd) is already running for this license.
+20:05:51 (lmgrd)    2) The OS has not "cleared" this port since lmgrd died.
+20:05:51 (lmgrd)    3) Another process is using this port number (unlikely).
+20:05:51 (lmgrd) Solutions:
+20:05:51 (lmgrd)    1) Make sure lmgrd and all vendor daemons for this 
+20:05:51 (lmgrd)       license are not running.
+20:05:51 (lmgrd)    2) You may have to wait for the OS to clear this port.
+20:05:51 (lmgrd) Retrying for about 5 more minutes
+20:06:09 (lmgrd) Still trying... 
+20:06:27 (lmgrd) Still trying... 
+20:06:45 (lmgrd) Still trying... 
+20:07:03 (lmgrd) Still trying... 
+20:07:21 (lmgrd) Still trying... 
+20:07:39 (lmgrd) Still trying... 
+20:07:57 (lmgrd) Still trying... 
+20:08:15 (lmgrd) Still trying... 
+20:08:33 (lmgrd) Still trying... 
+20:08:51 (lmgrd) Still trying... 
+20:09:09 (lmgrd) Still trying... 
+20:09:24 (lmgrd) Failed to open the TCP port number in the license.

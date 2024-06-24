@@ -1,0 +1,265 @@
+ 8:23:41 (lmgrd) -----------------------------------------------
+ 8:23:41 (lmgrd)   Please Note:
+ 8:23:41 (lmgrd) 
+ 8:23:41 (lmgrd)   This log is intended for debug purposes only.
+ 8:23:41 (lmgrd)   In order to capture accurate license
+ 8:23:41 (lmgrd)   usage data into an organized repository,
+ 8:23:41 (lmgrd)   please enable report logging. Use Flexera's
+ 8:23:41 (lmgrd)   software license administration  solution,
+ 8:23:41 (lmgrd)   FlexNet Manager, to  readily gain visibility
+ 8:23:41 (lmgrd)   into license usage data and to create
+ 8:23:41 (lmgrd)   insightful reports on critical information like
+ 8:23:41 (lmgrd)   license availability and usage. FlexNet Manager
+ 8:23:41 (lmgrd)   can be fully automated to run these reports on
+ 8:23:41 (lmgrd)   schedule and can be used to track license
+ 8:23:41 (lmgrd)   servers and usage across a heterogeneous
+ 8:23:41 (lmgrd)   network of servers including Windows NT, Linux
+ 8:23:41 (lmgrd)   and UNIX.
+ 8:23:41 (lmgrd) 
+ 8:23:41 (lmgrd) -----------------------------------------------
+ 8:23:41 (lmgrd) 
+ 8:23:41 (lmgrd) 
+ 8:23:41 (lmgrd) Server's System Date and Time: Thu Jul 08 2021 08:23:41 UTC
+ 8:23:41 (lmgrd) SLOG: Summary LOG statistics is enabled.
+ 8:23:56 (lmgrd) The TCP port number in the license, 27020, is already in use.
+ 8:23:56 (lmgrd) Possible causes: 
+ 8:23:56 (lmgrd)    1) The license server manager (lmgrd) is already running for this license.
+ 8:23:56 (lmgrd)    2) The OS has not "cleared" this port since lmgrd died.
+ 8:23:56 (lmgrd)    3) Another process is using this port number (unlikely).
+ 8:23:56 (lmgrd) Solutions:
+ 8:23:56 (lmgrd)    1) Make sure lmgrd and all vendor daemons for this 
+ 8:23:56 (lmgrd)       license are not running.
+ 8:23:56 (lmgrd)    2) You may have to wait for the OS to clear this port.
+ 8:23:56 (lmgrd) Retrying for about 5 more minutes
+ 8:24:14 (lmgrd) Still trying... 
+ 8:24:26 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (7/8/2021)
+ 8:24:26 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+ 8:24:26 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+ 8:24:26 (lmgrd) License file(s): ./admin/license/Jul21.lic
+ 8:24:26 (lmgrd) lmgrd tcp-port 27020
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) Start-Date: Thu Jul 08 2021 08:24:26 UTC
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) PID: 43444
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) 
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) 
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ./admin/license/Jul21.lic -l ./admin/logs/Jul21_2.log 
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ./admin/license/Jul21.lic
+ 8:24:26 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 8:24:26 (lmgrd) Starting vendor daemons ... 
+ 8:24:26 (lmgrd) Started snpslmd (internet tcp_port 43319 pid 44060)
+ 8:24:26 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+07/08/2021 08:24:26 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+07/08/2021 08:24:26 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+07/08/2021 08:24:26 (snpslmd) INFO: License sanity check enabled (3600)
+07/08/2021 08:24:26 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+07/08/2021 08:24:26 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=512 | net.core.somaxconn=128
+
+07/08/2021 08:24:26 (snpslmd) INFO: Cloud detection enabled. 1
+ 8:24:26 (snpslmd) SLOG: Summary LOG statistics is enabled.
+ 8:24:26 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+ 8:24:26 (snpslmd) SLOG: VM Status: 4
+ 8:24:26 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+ 8:24:26 (snpslmd) SLOG: TPM Status: 0
+ 8:24:26 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+ 8:24:27 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	SSST		
+ 8:24:27 (snpslmd) ACS		BOA-BRT		DC-Expert	
+ 8:24:27 (snpslmd) DC-Extension	DC-SDF-Interface DC-Ultra-Features 
+ 8:24:27 (snpslmd) DC-Ultra-Opt	Design-Budgeting Design-Compiler 
+ 8:24:27 (snpslmd) Design-Compiler-NXT Design-Vision	DesignWare	
+ 8:24:27 (snpslmd) DesignWare-LP	DesignWare-VERA Designware-Basic 
+ 8:24:27 (snpslmd) FAS-COSIM	FSPRO2XSIM	Formality	
+ 8:24:27 (snpslmd) Formality-Advanced Formality-E1	Formality-Ultra 
+ 8:24:27 (snpslmd) Galaxy-Common	GalaxyConstraint HDL		
+ 8:24:27 (snpslmd) HDL-Compiler	ICCompilerII	ICCompilerII-4	
+ 8:24:27 (snpslmd) ICCompilerIIs-Shell ICValidator-Live ICValidator-Manager 
+ 8:24:27 (snpslmd) ICValidator-Workbench ICValidator2-CompareEngine ICValidator2-GeometryEngine 
+ 8:24:27 (snpslmd) Library-Compiler MCE-Base	MDataPrep	
+ 8:24:27 (snpslmd) MDynLink	Milkyway	Milkyway-Interface 
+ 8:24:27 (snpslmd) Power-Optimization PrimePower	PrimeTime	
+ 8:24:27 (snpslmd) PrimeTime-SI	RTL-Power-Analysis STAR-RC2-NETLIST 
+ 8:24:27 (snpslmd) STAR-RC2-PROBER STAR-RC2-TCAD	STAR-RC2_ULTRA_MANAGER 
+ 8:24:27 (snpslmd) SynLib-Eval	SynopsysCustomAdvancedPlus SynopsysCustomSAE 
+ 8:24:27 (snpslmd) Test-CTL-Model	Test-Compiler	Test-Core-Wrapper 
+ 8:24:27 (snpslmd) Test-DFTC-TMAX	Test-LBIST-Synthesis Test-MBIST-Integration 
+ 8:24:27 (snpslmd) Test-RTL-Check	Test-RTL-Tristate Test-STDVR	
+ 8:24:27 (snpslmd) Test-ScanRoute	Test-Validate	VC-CDC-BASE	
+ 8:24:27 (snpslmd) VC-LINT-BASE	VC-STATIC-COMPILE VC-STATIC-LINT	
+ 8:24:27 (snpslmd) VC-STATIC-VERDI-PLUGIN VCSCompiler_Net VCSMXCompiler_Net 
+ 8:24:27 (snpslmd) VCSMXRunTime_Net VCSRuntime_Net	VCSTools_Net	
+ 8:24:27 (snpslmd) VCSUltraCompiler_Net VCSUltraRuntime_Net VERDI-ULTRA	
+ 8:24:27 (snpslmd) VIP-AMBA-AHB-SVT VIP-AMBA-APB-SVT VIP-AMBA-AXI-SVT 
+ 8:24:27 (snpslmd) VT_CoverageURG	VT_VCS_AMS_AddOnRuntime VT_VCS_AMS_CoSimRuntime 
+ 8:24:27 (snpslmd) Verdi_HwSwDebug adv_checker	cdc_adv_checker 
+ 8:24:27 (snpslmd) cdsaawaves	checker		encrypt		
+ 8:24:27 (snpslmd) fullhspice	hspice		hspice3des	
+ 8:24:27 (snpslmd) hspice_api	hspicecmidev	hspicecmirt	
+ 8:24:27 (snpslmd) metaencrypt3des nanosim/ace_cosim primewave	
+ 8:24:27 (snpslmd) simif		spice_explorer	spice_parser	
+ 8:24:27 (snpslmd) sx_cdslink	sx_cdslink_ext	sx_data		
+ 8:24:27 (snpslmd) xsim		
+ 8:24:27 (snpslmd) 
+ 8:24:27 (snpslmd) Licenses are case sensitive for TE_CATS
+ 8:24:27 (snpslmd) 
+ 8:24:27 (snpslmd) Wrong hostid on SERVER line for license file:
+ 8:24:27 (snpslmd) 	./admin/license/Jul21.lic
+ 8:24:27 (snpslmd) SERVER line says VM_UUID=I-03F13A8C6BD64EF16, hostid is (Can't get hostid of type 181 [The VM Host ID is not available.  (-215,14704)])
+ 8:24:27 (snpslmd) Invalid hostid on SERVER line
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature ACS(4FB2FC67791434CAA020)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature adv_checker(00C8 6272 79DC 2245 )
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature BOA-BRT(6FC28C67F127353E1574)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature cdc_adv_checker(00BC 21AA 1BE3 41FE )
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature cdsaawaves(CF924C171CE127C68BF0)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature checker(0071 8B11 2886 15D7 )
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DC-Expert(CF423C57665E51FBFBDA)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DC-Extension(CF224CA7D52349FC6D75)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DC-SDF-Interface(1F123C571710D88AD367)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DC-Ultra-Features(FF028CE72B3F96B58F3D)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DC-Ultra-Opt(0F320CD78F7F6F42706F)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Design-Budgeting(6F125CD7CA3E8E383432)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Design-Compiler(EF629C672B2F4E3761A8)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Design-Compiler-NXT(EFE2BCB70B8E1AEF247A)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Design-Vision(3F62DCF7E6415111A849)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DesignWare(1F521C07440FD7C3BC16)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Designware-Basic(DF020CB74B3FE4F8AA6F)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DesignWare-LP(EF92BC57372177D1FA7B)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature DesignWare-VERA(8F626C67E91BCCECC6AF)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature encrypt(6F524C27065CAE1F1179)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature FAS-COSIM(6FC2AC078A27BC4636BB)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Formality(3FF2DC777A79D1067E48)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Formality-Advanced(1F326C473F6CD54EF050)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Formality-E1(4FA21C970BC573B0945B)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Formality-Ultra(AFF2CC37E1CC796394ED)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature FSPRO2XSIM(1F62DC07174F3978A63C)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature fullhspice(0F22CC07296731434E52)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Galaxy-Common(DFC2CCA72C07D4051445)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature GalaxyConstraint(0FC2CCE71BE39DC8549E)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature HDL(EF521CE7433BFD68F2C2)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature HDL-Compiler(AFD21C67E5AEB9B1B0C0)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature hspice(FFB29C67C53AA4576D6D)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature hspice3des(9F521CE73331676C4560)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature hspicecmidev(9F121C17EFC0D46730DE)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature hspicecmirt(AFD28C27F8A5D3F88249)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature hspice_api(CFC28C679C140C0882D4)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature ICCompilerII(5FA29CD714E55192FBFB)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature ICCompilerII-4(3F129CF737897E721EB8)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature ICCompilerIIs-Shell(3FF24CE7184A0B63ED96)
+ 8:24:27 (snpslmd) Disabling 12 licenses from feature ICValidator-Live(DFC22C77918FB3439ECA)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature ICValidator-Manager(9FA2BC775766AC9AC49F)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature ICValidator-Workbench(9F82AC27216302E8143C)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature ICValidator2-CompareEngine(2F32EC174C9840D5591D)
+ 8:24:27 (snpslmd) Disabling 45 licenses from feature ICValidator2-GeometryEngine(8FA26C9764874F3546C3)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Library-Compiler(CF527C47145FA1A60AC6)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature MCE-Base(AF124C278C25DFC43F38)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature MDataPrep(1F12FC17472E220034CB)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature MDynLink(EF82ECC71FAB8663DE4C)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature metaencrypt3des(6FE21CA79EA39D02E234)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Milkyway(4F827CC76BE6BAF7800F)
+ 8:24:27 (snpslmd) Disabling 6 licenses from feature Milkyway-Interface(6F425CE70329705FE108)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature nanosim/ace_cosim(EFE2CCB72B5716435F87)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Power-Optimization(4FC2EC97FE4037F927CD)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature PrimePower(FFD2FC67D7A9BF97D9E0)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature PrimeTime(FFE22C5747B61569EBA3)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature PrimeTime-SI(4F02AC07BA7C4C3DC297)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature primewave(AF32FC374BD928046553)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature RTL-Power-Analysis(8FA27C179CE2B9EF0E51)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature simif(6F82BC174C29222B7262)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature spice_explorer(DEE0F76E8BA8BA72)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature spice_parser(8F12EC277D944295C2D4)
+ 8:24:27 (snpslmd) Disabling 1 license from feature SSST(BF02FC172BF069B4291F)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature STAR-RC2-NETLIST(DFB2BCA79528A70EF2E9)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature STAR-RC2-PROBER(0F123CF7A6C35144837E)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature STAR-RC2-TCAD(6F626C0779E9EBE6B9CC)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature STAR-RC2_ULTRA_MANAGER(0F121C17A1495CA2020F)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature sx_cdslink(37501F9C99DA8DE6)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature sx_cdslink_ext(3B42E3E8481A85F6)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature sx_data(91885CF2CCC49ABC)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature SynLib-Eval(4F72BCF784F60FD08910)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature SynopsysCustomAdvancedPlus(8FD2BC37A39F1556DECB)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature SynopsysCustomSAE(AF226C97D4C376416385)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-Compiler(7F42BCC701B90169CA84)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-Core-Wrapper(3FF2BCD793A0E7B7CE45)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-CTL-Model(0FD2BCE7536198332A74)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-DFTC-TMAX(3FA21C07C686516FC310)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-LBIST-Synthesis(6F52DCC72DC8069104BF)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-MBIST-Integration(8F62BC27107A3599D811)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-RTL-Check(0F124CC7CB9B163DD701)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-RTL-Tristate(6F12BC87F38AC640B430)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-ScanRoute(5F123CD7E0CCDD50BD3A)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-STDVR(3FE21C97A76C29D8458E)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature Test-Validate(CF82DC57EB02902FB42E)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature VC-CDC-BASE(003E 21E5 DE43 C037 )
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature VC-LINT-BASE(008C 5E3F F803 7944 )
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature VC-STATIC-COMPILE(005C ABDD 1710 87C0 )
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature VC-STATIC-LINT(0060 6B13 104E A671 )
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature VC-STATIC-VERDI-PLUGIN(00AB 310C 8E3F 3DB1 )
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VCSCompiler_Net(6F12FC27A4EC5DC95A80)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VCSMXCompiler_Net(AF824C771AD922E386B8)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VCSMXRunTime_Net(EF32BC3781511F1C31B2)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VCSRuntime_Net(FFD27C17264A29C66CDE)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VCSTools_Net(8F927C771C240CE2334E)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VCSUltraCompiler_Net(5F521CA748F32437E9E9)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VCSUltraRuntime_Net(1F522C97C94B5EAEEA3D)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VERDI-ULTRA(8F02FC17A310F0EDCC5B)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature Verdi_HwSwDebug(0F927CF7B8879495ACA2)
+ 8:24:27 (snpslmd) Disabling 6 licenses from feature VIP-AMBA-AHB-SVT(9F028C974D2AEEA22CD2)
+ 8:24:27 (snpslmd) Disabling 6 licenses from feature VIP-AMBA-APB-SVT(CFC2AC87FDAAC613F4D9)
+ 8:24:27 (snpslmd) Disabling 6 licenses from feature VIP-AMBA-AXI-SVT(3FC24CF7269DC6B1A81D)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature VT_CoverageURG(3F92AC373E3AFDB3EC47)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature VT_VCS_AMS_AddOnRuntime(EF321C17D29628102C3D)
+ 8:24:27 (snpslmd) Disabling 5 licenses from feature VT_VCS_AMS_CoSimRuntime(FFA2ECA736E660476B9B)
+ 8:24:27 (snpslmd) Disabling 3 licenses from feature xsim(BF421C17DE87D0E23AC9)
+ 8:24:27 (snpslmd) EXTERNAL FILTERS are OFF
+ 8:24:27 (lmgrd) snpslmd using TCP-port 43319
+ 8:24:27 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+07/08/2021 08:24:27 (snpslmd) ------------------------------------------------------------------
+07/08/2021 08:24:27 (snpslmd) Checking the integrity of the license file...
+07/08/2021 08:24:27 (snpslmd) Valid SSST feature found.
+07/08/2021 08:24:27 (snpslmd) Licensed to Quasistatics Inc.
+07/08/2021 08:24:27 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 7/7/2021
+07/08/2021 08:24:27 (snpslmd) ------------------------------------------------------------------
+07/08/2021 08:24:27 (snpslmd) INFO: Server WAN NC data enabled
+07/08/2021 08:24:27 (snpslmd) [SCL] Running on AWS Cloud Platform.
+ 8:24:27 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+ 8:24:27 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+ 8:24:27 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Start-Date: Thu Jul 08 2021 08:24:27 UTC
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) PID: 44060
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) 
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: No
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: -NA-
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) 
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Listening port: 43319
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) 
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Unknown Hypervisor
+ 8:24:27 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 8:24:27 (snpslmd) No valid hostids, exiting
+ 8:24:27 (snpslmd) EXITING DUE TO SIGNAL 34 Exit reason 2
+ 8:24:27 (lmgrd) snpslmd exited with status 34 (Invalid host)
+ 8:24:27 (lmgrd) Please correct problem and restart daemons
+ 8:43:21 (lmgrd) SHUTDOWN request from centos at node ip-172-31-33-1.us-east-2.compute.internal
+ 8:43:21 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+ 8:43:21 (lmgrd) EXITING DUE TO SIGNAL 15

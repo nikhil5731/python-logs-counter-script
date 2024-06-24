@@ -1,0 +1,199 @@
+ 4:40:24 (lmgrd) -----------------------------------------------
+ 4:40:24 (lmgrd)   Please Note:
+ 4:40:24 (lmgrd) 
+ 4:40:24 (lmgrd)   This log is intended for debug purposes only.
+ 4:40:24 (lmgrd)   In order to capture accurate license
+ 4:40:24 (lmgrd)   usage data into an organized repository,
+ 4:40:24 (lmgrd)   please enable report logging. Use Flexera's
+ 4:40:24 (lmgrd)   software license administration  solution,
+ 4:40:24 (lmgrd)   FlexNet Manager, to  readily gain visibility
+ 4:40:24 (lmgrd)   into license usage data and to create
+ 4:40:24 (lmgrd)   insightful reports on critical information like
+ 4:40:24 (lmgrd)   license availability and usage. FlexNet Manager
+ 4:40:24 (lmgrd)   can be fully automated to run these reports on
+ 4:40:24 (lmgrd)   schedule and can be used to track license
+ 4:40:24 (lmgrd)   servers and usage across a heterogeneous
+ 4:40:24 (lmgrd)   network of servers including Windows NT, Linux
+ 4:40:24 (lmgrd)   and UNIX.
+ 4:40:24 (lmgrd) 
+ 4:40:24 (lmgrd) -----------------------------------------------
+ 4:40:24 (lmgrd) 
+ 4:40:24 (lmgrd) 
+ 4:40:24 (lmgrd) Server's System Date and Time: Wed May 05 2021 04:40:24 UTC
+ 4:40:24 (lmgrd) SLOG: Summary LOG statistics is enabled.
+ 4:40:33 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (5/5/2021)
+ 4:40:33 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+ 4:40:33 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+ 4:40:33 (lmgrd) License file(s): ./admin/license/May21.lic
+ 4:40:33 (lmgrd) lmgrd tcp-port 27020
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) Start-Date: Wed May 05 2021 04:40:33 UTC
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) PID: 3726830
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) 
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) 
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ./admin/license/May21.lic -l ./admin/logs/May21.log 
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ./admin/license/May21.lic
+ 4:40:33 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 4:40:33 (lmgrd) Starting vendor daemons ... 
+ 4:40:33 (lmgrd) Started snpslmd (internet tcp_port 40487 pid 3726881)
+ 4:40:33 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+05/05/2021 04:40:34 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+05/05/2021 04:40:34 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+05/05/2021 04:40:34 (snpslmd) INFO: License sanity check enabled (3600)
+05/05/2021 04:40:34 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+05/05/2021 04:40:34 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=512 | net.core.somaxconn=128
+
+05/05/2021 04:40:34 (snpslmd) INFO: Cloud detection enabled. 1
+ 4:40:34 (snpslmd) SLOG: Summary LOG statistics is enabled.
+ 4:40:34 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+ 4:40:34 (snpslmd) SLOG: VM Status: 6
+ 4:40:34 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+ 4:40:34 (snpslmd) SLOG: TPM Status: 0
+ 4:40:34 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+ 4:40:34 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	SSST		
+ 4:40:34 (snpslmd) FSPRO2XSIM	ICValidator-Live ICValidator-Manager 
+ 4:40:34 (snpslmd) ICValidator-Workbench ICValidator2-CompareEngine ICValidator2-GeometryEngine 
+ 4:40:34 (snpslmd) MDataPrep	MDynLink	Milkyway	
+ 4:40:34 (snpslmd) STAR-RC2-NETLIST STAR-RC2-PROBER STAR-RC2-TCAD	
+ 4:40:34 (snpslmd) STAR-RC2_ULTRA_MANAGER SynopsysCustomAdvancedPlus SynopsysCustomSAE 
+ 4:40:34 (snpslmd) cdsaawaves	encrypt		fullhspice	
+ 4:40:34 (snpslmd) hspice		hspice3des	hspice_api	
+ 4:40:34 (snpslmd) hspicecmidev	hspicecmirt	metaencrypt3des 
+ 4:40:34 (snpslmd) nanosim/ace_cosim primewave	simif		
+ 4:40:34 (snpslmd) spice_explorer	spice_parser	sx_cdslink	
+ 4:40:34 (snpslmd) sx_cdslink_ext	sx_data		xsim		
+ 4:40:34 (snpslmd) 
+ 4:40:34 (snpslmd) Licenses are case sensitive for TE_CATS
+ 4:40:34 (snpslmd) 
+ 4:40:34 (snpslmd) EXTERNAL FILTERS are OFF
+ 4:40:34 (lmgrd) snpslmd using TCP-port 40487
+ 4:40:34 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+05/05/2021 04:40:34 (snpslmd) ------------------------------------------------------------------
+05/05/2021 04:40:34 (snpslmd) Checking the integrity of the license file...
+05/05/2021 04:40:34 (snpslmd) Valid SSST feature found.
+05/05/2021 04:40:34 (snpslmd) Licensed to Quasistatics Inc.
+05/05/2021 04:40:34 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 5/4/2021
+05/05/2021 04:40:34 (snpslmd) ------------------------------------------------------------------
+05/05/2021 04:40:34 (snpslmd) INFO: Server WAN NC data enabled
+05/05/2021 04:40:34 (snpslmd) [SCL] Running on AWS Cloud Platform.
+ 4:40:34 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+ 4:40:34 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+ 4:40:34 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Start-Date: Wed May 05 2021 04:40:34 UTC
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) PID: 3726881
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) 
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: Yes
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: 11.16.4.0
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) 
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Listening port: 40487
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) 
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Amazon EC2
+ 4:40:34 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 4:41:56 (snpslmd) TCP_NODELAY NOT enabled
+ 4:42:25 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [3727750@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 4:44:57 (snpslmd) OUT: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3727750@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 4:45:00 (snpslmd) OUT: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3727750@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 4:46:11 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620189971] (No such feature exists. (-5,346))
+ 4:49:02 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620190142] (No such feature exists. (-5,346))
+ 4:52:40 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620190360] (No such feature exists. (-5,346))
+ 4:56:49 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 4:56:49 (snpslmd) UNSUPPORTED: "SynopsysCustomAdvancedPlus" (2F6257F45BC8AACFA450) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (No such feature exists. (-5,346))
+ 4:58:49 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 4:58:49 (snpslmd) UNSUPPORTED: "SynopsysCustomAdvancedPlus" (2F6257F45BC8AACFA450) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (No such feature exists. (-5,346))
+ 4:58:49 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 5:00:49 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 5:00:49 (snpslmd) UNSUPPORTED: "SynopsysCustomAdvancedPlus" (2F6257F45BC8AACFA450) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (No such feature exists. (-5,346))
+ 5:00:49 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 5:02:49 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 5:02:49 (snpslmd) UNSUPPORTED: "SynopsysCustomAdvancedPlus" (2F6257F45BC8AACFA450) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (No such feature exists. (-5,346))
+ 5:02:49 (snpslmd) DENIED: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3724580@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (Licensed number of users already reached. (-4,342))
+ 5:10:11 (snpslmd) IN: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3727750@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 5:15:16 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620191716] (No such feature exists. (-5,346))
+ 5:15:34 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620191734] (No such feature exists. (-5,346))
+ 5:16:00 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620191760] (No such feature exists. (-5,346))
+ 5:17:29 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620191849] (No such feature exists. (-5,346))
+ 5:19:00 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620191940] (No such feature exists. (-5,346))
+ 5:20:44 (snpslmd) IN: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3727750@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 5:20:48 (snpslmd) IN: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [3727750@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 5:21:17 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620192077] (No such feature exists. (-5,346))
+ 5:21:30 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620192090] (No such feature exists. (-5,346))
+ 5:21:52 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620192112] (No such feature exists. (-5,346))
+ 5:24:17 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620192257] (No such feature exists. (-5,346))
+ 5:40:55 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620193255] (No such feature exists. (-5,346))
+ 5:41:33 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [3760661@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 5:41:51 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3761242_1] (No such feature exists. (-5,346))
+ 5:41:51 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3761242_1] 
+ 5:41:52 (snpslmd) OUT: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3761242_1] 
+ 5:42:05 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3761242_1] 
+ 5:42:05 (snpslmd) IN: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3761242_1] 
+ 5:43:25 (snpslmd) UNSUPPORTED: "VCSCompiler_Net" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1620193405] (No such feature exists. (-5,346))
+ 5:43:40 (snpslmd) IN: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [3760661@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+ 5:47:49 (lmgrd) SHUTDOWN request from centos at node ip-172-31-33-1.us-east-2.compute.internal
+ 5:47:49 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+ 5:47:49 (lmgrd) Shutting down snpslmd pid=3726881 because of signal 15
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) Time: Wed May 05 2021 05:47:49 UTC
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:47:49 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:47:49 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute,74)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 05:43:40 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:43:25 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:43:25 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:43:25 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 05:43:25 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:43:25 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:43:25 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute,78)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Wed May 05 2021 05:42:09 UTC,#6,(centos,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) Time: Wed May 05 2021 05:47:49 UTC
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:41:56 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:41:56 UTC,#4,(centos,ip-172-31-33-1.us-east-2.compute.internal,75)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:44:57 UTC,#3,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:45:00 UTC,#5,(centos,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:46:11 UTC,#5,(centos,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:49:02 UTC,#5,(centos,ip-172-31-33-1.us-east-2.compute.internal,76)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:51:56 UTC,#4,(centos,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:52:40 UTC,#5,(centos,ip-172-31-33-1.us-east-2.compute,76)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:56:49 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Wed May 05 2021 04:58:49 UTC,#5,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,77)
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) Time: Wed May 05 2021 05:47:49 UTC
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) Peak active connections #8 attempted at Wed May 05 2021 05:41:52 UTC
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) 
+ 5:47:49 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 5:47:49 (snpslmd) Shutdown requested.
+ 5:47:49 (lmgrd) Shut down FlexNet snpslmd license server system on machine ip-172-31-33-1.us-east-2.compute.internal
+ 5:47:49 (snpslmd) daemon shutdown requested - shutting down
+ 5:47:49 (lmgrd) EXITING DUE TO SIGNAL 15

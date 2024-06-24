@@ -1,0 +1,29 @@
+ 8:04:41 (lmgrd) -----------------------------------------------
+ 8:04:41 (lmgrd)   Please Note:
+ 8:04:41 (lmgrd) 
+ 8:04:41 (lmgrd)   This log is intended for debug purposes only.
+ 8:04:41 (lmgrd)   In order to capture accurate license
+ 8:04:41 (lmgrd)   usage data into an organized repository,
+ 8:04:41 (lmgrd)   please enable report logging. Use Flexera's
+ 8:04:41 (lmgrd)   software license administration  solution,
+ 8:04:41 (lmgrd)   FlexNet Manager, to  readily gain visibility
+ 8:04:41 (lmgrd)   into license usage data and to create
+ 8:04:41 (lmgrd)   insightful reports on critical information like
+ 8:04:41 (lmgrd)   license availability and usage. FlexNet Manager
+ 8:04:41 (lmgrd)   can be fully automated to run these reports on
+ 8:04:41 (lmgrd)   schedule and can be used to track license
+ 8:04:41 (lmgrd)   servers and usage across a heterogeneous
+ 8:04:41 (lmgrd)   network of servers including Windows NT, Linux
+ 8:04:41 (lmgrd)   and UNIX.
+ 8:04:41 (lmgrd) 
+ 8:04:41 (lmgrd) -----------------------------------------------
+ 8:04:41 (lmgrd) 
+ 8:04:41 (lmgrd) 
+ 8:04:41 (lmgrd) Server's System Date and Time: Tue Apr 30 2024 08:04:41 UTC
+ 8:04:41 (lmgrd) SLOG: Summary LOG statistics is enabled.
+ 8:04:41 (lmgrd) The license server manager (lmgrd) running as root:
+ 8:04:41 (lmgrd) 	This is a potential security problem
+ 8:04:41 (lmgrd) 	and is not recommended.
+ 8:04:41 (lmgrd) "ip-172-31-13-210.ap-south-1.compute.internal": Not a valid server hostname, exiting.
+ 8:04:41 (lmgrd) Valid license server system hosts are: "ip-172-31-33-1.us-east-2.compute.internal" 
+ 8:04:41 (lmgrd) Using license file "/home/centos/synopsys-install/scl/2021.03-SP1/admin/license/Aug2022.lic"

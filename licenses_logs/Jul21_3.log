@@ -1,0 +1,573 @@
+ 8:43:34 (lmgrd) -----------------------------------------------
+ 8:43:34 (lmgrd)   Please Note:
+ 8:43:34 (lmgrd) 
+ 8:43:34 (lmgrd)   This log is intended for debug purposes only.
+ 8:43:34 (lmgrd)   In order to capture accurate license
+ 8:43:34 (lmgrd)   usage data into an organized repository,
+ 8:43:34 (lmgrd)   please enable report logging. Use Flexera's
+ 8:43:34 (lmgrd)   software license administration  solution,
+ 8:43:34 (lmgrd)   FlexNet Manager, to  readily gain visibility
+ 8:43:34 (lmgrd)   into license usage data and to create
+ 8:43:34 (lmgrd)   insightful reports on critical information like
+ 8:43:34 (lmgrd)   license availability and usage. FlexNet Manager
+ 8:43:34 (lmgrd)   can be fully automated to run these reports on
+ 8:43:34 (lmgrd)   schedule and can be used to track license
+ 8:43:34 (lmgrd)   servers and usage across a heterogeneous
+ 8:43:34 (lmgrd)   network of servers including Windows NT, Linux
+ 8:43:34 (lmgrd)   and UNIX.
+ 8:43:34 (lmgrd) 
+ 8:43:34 (lmgrd) -----------------------------------------------
+ 8:43:34 (lmgrd) 
+ 8:43:34 (lmgrd) 
+ 8:43:34 (lmgrd) Server's System Date and Time: Thu Jul 08 2021 08:43:34 UTC
+ 8:43:34 (lmgrd) SLOG: Summary LOG statistics is enabled.
+ 8:43:49 (lmgrd) The TCP port number in the license, 27020, is already in use.
+ 8:43:49 (lmgrd) Possible causes: 
+ 8:43:49 (lmgrd)    1) The license server manager (lmgrd) is already running for this license.
+ 8:43:49 (lmgrd)    2) The OS has not "cleared" this port since lmgrd died.
+ 8:43:49 (lmgrd)    3) Another process is using this port number (unlikely).
+ 8:43:49 (lmgrd) Solutions:
+ 8:43:49 (lmgrd)    1) Make sure lmgrd and all vendor daemons for this 
+ 8:43:49 (lmgrd)       license are not running.
+ 8:43:49 (lmgrd)    2) You may have to wait for the OS to clear this port.
+ 8:43:49 (lmgrd) Retrying for about 5 more minutes
+ 8:44:07 (lmgrd) Still trying... 
+ 8:44:25 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (7/8/2021)
+ 8:44:25 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+ 8:44:25 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+ 8:44:25 (lmgrd) License file(s): ./admin/license/May21_8.lic
+ 8:44:25 (lmgrd) lmgrd tcp-port 27020
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) Start-Date: Thu Jul 08 2021 08:44:25 UTC
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) PID: 55595
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) 
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) 
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ./admin/license/May21_8.lic -l ./admin/logs/Jul21_3.log 
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ./admin/license/May21_8.lic
+ 8:44:25 (lmgrd) (@lmgrd-SLOG@) ===============================================
+ 8:44:25 (lmgrd) Starting vendor daemons ... 
+ 8:44:25 (lmgrd) Started snpslmd (internet tcp_port 57637 pid 55940)
+ 8:44:25 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+07/08/2021 08:44:25 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+07/08/2021 08:44:25 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+07/08/2021 08:44:25 (snpslmd) INFO: License sanity check enabled (3600)
+07/08/2021 08:44:25 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+07/08/2021 08:44:25 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=512 | net.core.somaxconn=128
+
+07/08/2021 08:44:25 (snpslmd) INFO: Cloud detection enabled. 1
+ 8:44:25 (snpslmd) SLOG: Summary LOG statistics is enabled.
+ 8:44:25 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+ 8:44:25 (snpslmd) SLOG: VM Status: 4
+ 8:44:25 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+ 8:44:25 (snpslmd) SLOG: TPM Status: 0
+ 8:44:25 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+ 8:44:25 (snpslmd) Warning: SSST expires 11-Jul-2021
+ 8:44:25 (snpslmd) Warning: SSST expires 11-Jul-2021
+ 8:44:25 (snpslmd) Warning: SSST expires 11-Jul-2021
+ 8:44:25 (snpslmd) Warning: ACS expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: BOA-BRT expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DC-Expert expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DC-Extension expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DC-SDF-Interface expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DC-Ultra-Features expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DC-Ultra-Opt expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Design-Budgeting expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Design-Compiler expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Design-Compiler-NXT expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Design-Vision expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DesignWare expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DesignWare-LP expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: DesignWare-VERA expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Designware-Basic expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: FSPRO2XSIM expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: FSPRO2XSIM expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Formality expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Formality-Advanced expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Formality-E1 expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Formality-Ultra expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Galaxy-Common expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: GalaxyConstraint expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: HDL expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: HDL-Compiler expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICCompilerII expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICCompilerII-4 expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICCompilerIIs-Shell expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator-Live expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator-Live expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator-Manager expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator-Manager expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator-Workbench expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator-Workbench expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator2-CompareEngine expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator2-CompareEngine expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator2-GeometryEngine expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: ICValidator2-GeometryEngine expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Library-Compiler expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: MCE-Base expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: MDataPrep expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: MDataPrep expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: MDynLink expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: MDynLink expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Milkyway expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Milkyway expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Milkyway-Interface expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Milkyway-Interface expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Milkyway-Interface expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Power-Optimization expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: PrimePower expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: PrimeTime expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: PrimeTime-SI expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: RTL-Power-Analysis expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2-NETLIST expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2-NETLIST expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2-PROBER expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2-PROBER expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2-TCAD expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2-TCAD expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2_ULTRA_MANAGER expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: STAR-RC2_ULTRA_MANAGER expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynLib-Eval expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynLib-Eval expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynopsysCustomAdvancedPlus expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynopsysCustomAdvancedPlus expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynopsysCustomSAE expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynopsysCustomSAE expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynopsysCustomSAE expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: SynopsysCustomSAE expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-CTL-Model expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-Compiler expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-Core-Wrapper expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-DFTC-TMAX expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-LBIST-Synthesis expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-MBIST-Integration expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-RTL-Check expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-RTL-Tristate expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-STDVR expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-ScanRoute expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Test-Validate expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VC-CDC-BASE expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VC-LINT-BASE expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VC-STATIC-COMPILE expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VC-STATIC-LINT expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VC-STATIC-VERDI-PLUGIN expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSCompiler_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSCompiler_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSMXCompiler_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSMXCompiler_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSMXRunTime_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSMXRunTime_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSRuntime_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSRuntime_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSTools_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSTools_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSUltraCompiler_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSUltraCompiler_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSUltraRuntime_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VCSUltraRuntime_Net expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VERDI-ULTRA expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VIP-AMBA-AHB-SVT expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VIP-AMBA-APB-SVT expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VIP-AMBA-AXI-SVT expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VT_CoverageURG expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VT_VCS_AMS_CoSimRuntime expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VT_VCS_AMS_CoSimRuntime expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: Verdi_HwSwDebug expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: adv_checker expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: cdc_adv_checker expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: cdsaawaves expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: cdsaawaves expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: checker expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: encrypt expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: encrypt expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: encrypt expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: encrypt expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: fullhspice expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: fullhspice expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspice expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspice expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspice3des expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspice3des expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspice_api expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspice_api expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspicecmidev expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspicecmidev expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspicecmirt expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: hspicecmirt expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: metaencrypt3des expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: metaencrypt3des expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: nanosim/ace_cosim expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: nanosim/ace_cosim expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: primewave expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: primewave expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: simif expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: simif expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: spice_explorer expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: spice_explorer expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: spice_parser expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: spice_parser expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: sx_cdslink expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: sx_cdslink expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: sx_cdslink_ext expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: sx_cdslink_ext expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: sx_data expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: sx_data expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: xsim expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: xsim expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: FAS-COSIM expires 11-jul-2021
+ 8:44:25 (snpslmd) Warning: VT_VCS_AMS_AddOnRuntime expires 11-jul-2021
+ 8:44:25 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	SSST		
+ 8:44:25 (snpslmd) ACS		BOA-BRT		DC-Expert	
+ 8:44:25 (snpslmd) DC-Extension	DC-SDF-Interface DC-Ultra-Features 
+ 8:44:25 (snpslmd) DC-Ultra-Opt	Design-Budgeting Design-Compiler 
+ 8:44:25 (snpslmd) Design-Compiler-NXT Design-Vision	DesignWare	
+ 8:44:25 (snpslmd) DesignWare-LP	DesignWare-VERA Designware-Basic 
+ 8:44:25 (snpslmd) FSPRO2XSIM	Formality	Formality-Advanced 
+ 8:44:25 (snpslmd) Formality-E1	Formality-Ultra Galaxy-Common	
+ 8:44:25 (snpslmd) GalaxyConstraint HDL		HDL-Compiler	
+ 8:44:25 (snpslmd) ICCompilerII	ICCompilerII-4	ICCompilerIIs-Shell 
+ 8:44:25 (snpslmd) ICValidator-Live ICValidator-Manager ICValidator-Workbench 
+ 8:44:25 (snpslmd) ICValidator2-CompareEngine ICValidator2-GeometryEngine Library-Compiler 
+ 8:44:25 (snpslmd) MCE-Base	MDataPrep	MDynLink	
+ 8:44:25 (snpslmd) Milkyway	Milkyway-Interface Power-Optimization 
+ 8:44:25 (snpslmd) PrimePower	PrimeTime	PrimeTime-SI	
+ 8:44:25 (snpslmd) RTL-Power-Analysis STAR-RC2-NETLIST STAR-RC2-PROBER 
+ 8:44:25 (snpslmd) STAR-RC2-TCAD	STAR-RC2_ULTRA_MANAGER SynLib-Eval	
+ 8:44:25 (snpslmd) SynopsysCustomAdvancedPlus SynopsysCustomSAE Test-CTL-Model	
+ 8:44:25 (snpslmd) Test-Compiler	Test-Core-Wrapper Test-DFTC-TMAX	
+ 8:44:25 (snpslmd) Test-LBIST-Synthesis Test-MBIST-Integration Test-RTL-Check	
+ 8:44:25 (snpslmd) Test-RTL-Tristate Test-STDVR	Test-ScanRoute	
+ 8:44:25 (snpslmd) Test-Validate	VC-CDC-BASE	VC-LINT-BASE	
+ 8:44:25 (snpslmd) VC-STATIC-COMPILE VC-STATIC-LINT	VC-STATIC-VERDI-PLUGIN 
+ 8:44:25 (snpslmd) VCSCompiler_Net VCSMXCompiler_Net VCSMXRunTime_Net 
+ 8:44:25 (snpslmd) VCSRuntime_Net	VCSTools_Net	VCSUltraCompiler_Net 
+ 8:44:25 (snpslmd) VCSUltraRuntime_Net VERDI-ULTRA	VIP-AMBA-AHB-SVT 
+ 8:44:25 (snpslmd) VIP-AMBA-APB-SVT VIP-AMBA-AXI-SVT VT_CoverageURG	
+ 8:44:25 (snpslmd) VT_VCS_AMS_CoSimRuntime Verdi_HwSwDebug adv_checker	
+ 8:44:25 (snpslmd) cdc_adv_checker cdsaawaves	checker		
+ 8:44:25 (snpslmd) encrypt		fullhspice	hspice		
+ 8:44:25 (snpslmd) hspice3des	hspice_api	hspicecmidev	
+ 8:44:25 (snpslmd) hspicecmirt	metaencrypt3des nanosim/ace_cosim 
+ 8:44:25 (snpslmd) primewave	simif		spice_explorer	
+ 8:44:25 (snpslmd) spice_parser	sx_cdslink	sx_cdslink_ext	
+ 8:44:25 (snpslmd) sx_data		xsim		FAS-COSIM	
+ 8:44:25 (snpslmd) VT_VCS_AMS_AddOnRuntime 
+ 8:44:25 (snpslmd) 
+ 8:44:25 (snpslmd) Licenses are case sensitive for TE_CATS
+ 8:44:25 (snpslmd) 
+ 8:44:25 (snpslmd) Wrong hostid on SERVER line for license file:
+ 8:44:25 (snpslmd) 	./admin/license/May21_8.lic
+ 8:44:25 (snpslmd) SERVER line says VM_UUID=I-03F13A8C6BD64EF16, hostid is (Can't get hostid of type 181 [The VM Host ID is not available.  (-215,14704)])
+ 8:44:25 (snpslmd) Invalid hostid on SERVER line
+ 8:44:25 (snpslmd) Disabling 1 license from feature ACS(0FF23734E49CEE31C168)
+ 8:44:25 (snpslmd) Disabling 1 license from feature adv_checker(0059 C32E 4381 2235 )
+ 8:44:25 (snpslmd) Disabling 1 license from feature BOA-BRT(9F22A704DA2CF4126BB6)
+ 8:44:25 (snpslmd) Disabling 1 license from feature cdc_adv_checker(008E 29E4 236D 3B3F )
+ 8:44:25 (snpslmd) Disabling 1 license from feature cdsaawaves(9F229804D596542202B6)
+ 8:44:25 (snpslmd) Disabling 1 license from feature checker(0008 9D1E 789C 7431 )
+ 8:44:25 (snpslmd) Disabling 1 license from feature DC-Expert(EFF287541F27E1C1B085)
+ 8:44:25 (snpslmd) Disabling 1 license from feature DC-Extension(BF4227F4737727604525)
+ 8:44:25 (snpslmd) Disabling 1 license from feature DC-SDF-Interface(FF72A7247C14E6FBE684)
+ 8:44:25 (snpslmd) Disabling 1 license from feature DC-Ultra-Features(1F5217A48BD163A88250)
+ 8:44:25 (snpslmd) Disabling 1 license from feature DC-Ultra-Opt(AFA257740C9815DD5559)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Design-Budgeting(CFF2C7D4C51C55FC06C4)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Design-Compiler(CF2207044923B68B0C10)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Design-Compiler-NXT(EFA2E7449637A5A18E10)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Design-Vision(3F7297E466830322BBAE)
+ 8:44:25 (snpslmd) Disabling 1 license from feature DesignWare(DF52B7C4416AA29389DE)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Designware-Basic(BF7297B41916B286D0AA)
+ 8:44:25 (snpslmd) Disabling 1 license from feature DesignWare-LP(1F129774FB40663E7482)
+ 8:44:25 (snpslmd) Disabling 1 license from feature DesignWare-VERA(4F8257D4CE72D4DEFD29)
+ 8:44:25 (snpslmd) Disabling 1 license from feature encrypt(BFC298841FE8AE2902B1)
+ 8:44:25 (snpslmd) Disabling 2 licenses from feature FAS-COSIM(EFD22865F401A6CADC47)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Formality(8FF2C7742B81D808F24F)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Formality-Advanced(1F824784E4177BBFA550)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Formality-E1(EF9257945824B9AC7A2A)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Formality-Ultra(9FF2C714C75A2CCC7955)
+ 8:44:25 (snpslmd) Disabling 1 license from feature FSPRO2XSIM(9F1298C49B3F1F19F21C)
+ 8:44:25 (snpslmd) Disabling 1 license from feature fullhspice(5FE23854B9373FB91545)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Galaxy-Common(9FF297042479EE2C8DD3)
+ 8:44:25 (snpslmd) Disabling 1 license from feature GalaxyConstraint(2F525744A5784B38B016)
+ 8:44:25 (snpslmd) Disabling 1 license from feature HDL(3F8247B43602868D1593)
+ 8:44:25 (snpslmd) Disabling 1 license from feature HDL-Compiler(8FF27734EEEAB69553C5)
+ 8:44:25 (snpslmd) Disabling 1 license from feature hspice(8FE2586419F85EF5FC7A)
+ 8:44:25 (snpslmd) Disabling 1 license from feature hspice3des(CFF258740E43FD388558)
+ 8:44:25 (snpslmd) Disabling 1 license from feature hspicecmidev(AFE2285414112B4C7394)
+ 8:44:25 (snpslmd) Disabling 1 license from feature hspicecmirt(EF82F8D4634B085BA691)
+ 8:44:25 (snpslmd) Disabling 1 license from feature hspice_api(4F7268D4C4C736FBDCA2)
+ 8:44:25 (snpslmd) Disabling 1 license from feature ICCompilerII(EF326784DA8EBE080E8B)
+ 8:44:25 (snpslmd) Disabling 1 license from feature ICCompilerII-4(0FD2E714A4AFF22B8BAF)
+ 8:44:25 (snpslmd) Disabling 1 license from feature ICCompilerIIs-Shell(6F2237E4E84DA80F1EC0)
+ 8:44:25 (snpslmd) Disabling 4 licenses from feature ICValidator-Live(FF12F8941B31B355E9A0)
+ 8:44:25 (snpslmd) Disabling 1 license from feature ICValidator-Manager(0F92D80459B63C26B8E0)
+ 8:44:25 (snpslmd) Disabling 1 license from feature ICValidator-Workbench(8F42A8142A6F5FF992A2)
+ 8:44:25 (snpslmd) Disabling 1 license from feature ICValidator2-CompareEngine(CFE2E8C46F5DD77D7CB9)
+ 8:44:25 (snpslmd) Disabling 15 licenses from feature ICValidator2-GeometryEngine(5FB23864D366DE9DA9F3)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Library-Compiler(7F8267742B5492497B62)
+ 8:44:25 (snpslmd) Disabling 1 license from feature MCE-Base(5F72C7B43A3BF116CDE9)
+ 8:44:25 (snpslmd) Disabling 1 license from feature MDataPrep(8F323804232C6DB09444)
+ 8:44:25 (snpslmd) Disabling 1 license from feature MDynLink(9F8218B47CB88EEBB552)
+ 8:44:25 (snpslmd) Disabling 1 license from feature metaencrypt3des(3F126854E3B2E1BA67CD)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Milkyway(6F723884FCC1CE757805)
+ 8:44:25 (snpslmd) Disabling 2 licenses from feature Milkyway-Interface(AF32F79468DD62BD2A69)
+ 8:44:25 (snpslmd) Disabling 1 license from feature nanosim/ace_cosim(FF22D8E49F199A1F7260)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Power-Optimization(4F02E764F58A581F27CE)
+ 8:44:25 (snpslmd) Disabling 1 license from feature PrimePower(BFE2E7F4B046F9EDD1D7)
+ 8:44:25 (snpslmd) Disabling 1 license from feature PrimeTime(CF2237048B67B16DBEB7)
+ 8:44:25 (snpslmd) Disabling 1 license from feature PrimeTime-SI(7FB26724BD239E2320C0)
+ 8:44:25 (snpslmd) Disabling 1 license from feature primewave(7FC2F8D45E31E45B86BA)
+ 8:44:25 (snpslmd) Disabling 1 license from feature RTL-Power-Analysis(DF1267942AA17E0BC100)
+ 8:44:25 (snpslmd) Disabling 1 license from feature simif(CF0238644665E2B5F5E4)
+ 8:44:25 (snpslmd) Disabling 1 license from feature spice_explorer(10389534884E041C)
+ 8:44:25 (snpslmd) Disabling 1 license from feature spice_parser(7F42D82423DB490B8CF2)
+ 8:44:25 (snpslmd) Disabling 1 license from feature SSST(DFC2D8A5235A4C519CE5)
+ 8:44:25 (snpslmd) Disabling 1 license from feature STAR-RC2-NETLIST(FFD2E8A4EFA366A0C9A9)
+ 8:44:25 (snpslmd) Disabling 1 license from feature STAR-RC2-PROBER(3F127834212C3358723B)
+ 8:44:25 (snpslmd) Disabling 1 license from feature STAR-RC2-TCAD(7F72E824C25E3EDEF475)
+ 8:44:25 (snpslmd) Disabling 1 license from feature STAR-RC2_ULTRA_MANAGER(3F22D8D487B6A7610829)
+ 8:44:25 (snpslmd) Disabling 1 license from feature sx_cdslink(7D98DFBC46A45206)
+ 8:44:25 (snpslmd) Disabling 1 license from feature sx_cdslink_ext(516C5DF29BF0CE76)
+ 8:44:25 (snpslmd) Disabling 1 license from feature sx_data(7B52A4A26E58EF98)
+ 8:44:25 (snpslmd) Disabling 1 license from feature SynLib-Eval(BF4217E44471D975BBE4)
+ 8:44:25 (snpslmd) Disabling 1 license from feature SynopsysCustomAdvancedPlus(1F3248041BF63ABF4AB8)
+ 8:44:25 (snpslmd) Disabling 1 license from feature SynopsysCustomSAE(BF52C8D4151CFF809C2D)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-Compiler(3F22F764A441C3FCC354)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-Core-Wrapper(0F4297E472667BB2D83A)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-CTL-Model(BF224794E0EC28D7FD17)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-DFTC-TMAX(9F12D7849C939592924F)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-LBIST-Synthesis(1FC217840B3EE0B220F1)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-MBIST-Integration(7F22D704367B215A9505)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-RTL-Check(6F921704BC0902580E1D)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-RTL-Tristate(9FE2A7F4BA4232C92627)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-ScanRoute(AFE2E744DA4A4D086A1A)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-STDVR(6FE29744841DD23A9FC2)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Test-Validate(1F523764AF49DA1C70ED)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VC-CDC-BASE(00DD 6BA3 2A9E DF18 )
+ 8:44:25 (snpslmd) Disabling 1 license from feature VC-LINT-BASE(0000 DB6B 1E8D 5051 )
+ 8:44:25 (snpslmd) Disabling 1 license from feature VC-STATIC-COMPILE(003C AECB A7B8 0A49 )
+ 8:44:25 (snpslmd) Disabling 1 license from feature VC-STATIC-LINT(003C 9950 228B AC7F )
+ 8:44:25 (snpslmd) Disabling 1 license from feature VC-STATIC-VERDI-PLUGIN(0031 7F21 609F 482A )
+ 8:44:25 (snpslmd) Disabling 1 license from feature VCSCompiler_Net(2FC24805AFDFC621B8AD)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VCSMXCompiler_Net(DF7228A568499CE8539B)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VCSMXRunTime_Net(6F4248F5967151078CD6)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VCSRuntime_Net(5FE28835EAA1A3A13143)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VCSTools_Net(CF827805FAEE834E891D)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VCSUltraCompiler_Net(1F0238555B076BBFD2C7)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VCSUltraRuntime_Net(EF42B80509E62845163A)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VERDI-ULTRA(CFA2B7D466AFA023FDE6)
+ 8:44:25 (snpslmd) Disabling 1 license from feature Verdi_HwSwDebug(4F42D72488F5869771C8)
+ 8:44:25 (snpslmd) Disabling 2 licenses from feature VIP-AMBA-AHB-SVT(DF222724D46BEF329F89)
+ 8:44:25 (snpslmd) Disabling 2 licenses from feature VIP-AMBA-APB-SVT(8F220724ECF2CF91D687)
+ 8:44:25 (snpslmd) Disabling 2 licenses from feature VIP-AMBA-AXI-SVT(EF2277D41A5F9F019B7A)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VT_CoverageURG(9F4287B464F5AD4E95F9)
+ 8:44:25 (snpslmd) Disabling 2 licenses from feature VT_VCS_AMS_AddOnRuntime(7F92D8A5F6E01DFBCE20)
+ 8:44:25 (snpslmd) Disabling 1 license from feature VT_VCS_AMS_CoSimRuntime(BF02F8B574EEB63B5586)
+ 8:44:25 (snpslmd) Disabling 1 license from feature xsim(CFB22804114AEF546CB8)
+ 8:44:25 (snpslmd) EXTERNAL FILTERS are OFF
+ 8:44:25 (lmgrd) snpslmd using TCP-port 57637
+ 8:44:25 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+07/08/2021 08:44:25 (snpslmd) ------------------------------------------------------------------
+07/08/2021 08:44:25 (snpslmd) Checking the integrity of the license file...
+07/08/2021 08:44:25 (snpslmd) Valid SSST feature found.
+07/08/2021 08:44:25 (snpslmd) Licensed to Quasistatics Inc.
+07/08/2021 08:44:25 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 5/5/2021
+07/08/2021 08:44:25 (snpslmd) ------------------------------------------------------------------
+07/08/2021 08:44:25 (snpslmd) INFO: Server WAN NC data enabled
+07/08/2021 08:44:25 (snpslmd) [SCL] Running on AWS Cloud Platform.
+ 8:44:25 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+ 8:44:25 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+ 8:44:25 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Start-Date: Thu Jul 08 2021 08:44:25 UTC
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) PID: 55940
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) 
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: No
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: -NA-
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) 
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Listening port: 57637
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) 
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Unknown Hypervisor
+ 8:44:25 (snpslmd) (@snpslmd-SLOG@) ===============================================
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ACS                  0FF23734E49CEE31C168 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: BOA-BRT              9F22A704DA2CF4126BB6 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DC-Expert            EFF287541F27E1C1B085 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DC-Extension         BF4227F4737727604525 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DC-SDF-Interface     FF72A7247C14E6FBE684 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DC-Ultra-Features    1F5217A48BD163A88250 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DC-Ultra-Opt         AFA257740C9815DD5559 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Design-Budgeting     CFF2C7D4C51C55FC06C4 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Design-Compiler      CF2207044923B68B0C10 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Design-Compiler-NXT  EFA2E7449637A5A18E10 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Design-Vision        3F7297E466830322BBAE 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DesignWare           DF52B7C4416AA29389DE 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DesignWare-LP        1F129774FB40663E7482 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: DesignWare-VERA      4F8257D4CE72D4DEFD29 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Designware-Basic     BF7297B41916B286D0AA 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: FAS-COSIM            EFD22865F401A6CADC47 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: FSPRO2XSIM           9F1298C49B3F1F19F21C 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: FSPRO2XSIM           FF42176452BD72E741A0 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Formality            8FF2C7742B81D808F24F 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Formality-Advanced   1F824784E4177BBFA550 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Formality-E1         EF9257945824B9AC7A2A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Formality-Ultra      9FF2C714C75A2CCC7955 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Galaxy-Common        9FF297042479EE2C8DD3 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: GalaxyConstraint     2F525744A5784B38B016 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: HDL                  3F8247B43602868D1593 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: HDL-Compiler         8FF27734EEEAB69553C5 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICCompilerII         EF326784DA8EBE080E8B 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICCompilerII-4       0FD2E714A4AFF22B8BAF 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICCompilerIIs-Shell  6F2237E4E84DA80F1EC0 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator-Live     FF12F8941B31B355E9A0 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator-Live     FF7297248332D0A0356D 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator-Manager  0F92D80459B63C26B8E0 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator-Manager  5F2277345AC5DA6168BB 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator-Workbench 8F42A8142A6F5FF992A2 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator-Workbench DFF2F7E4F539D5FB98ED 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator2-CompareEngine CFE2E8C46F5DD77D7CB9 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator2-CompareEngine 2FB2E7740A59EE16070C 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator2-GeometryEngine 5FB23864D366DE9DA9F3 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: ICValidator2-GeometryEngine 4F2287C49C9458F57E8F 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Library-Compiler     7F8267742B5492497B62 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: MCE-Base             5F72C7B43A3BF116CDE9 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: MDataPrep            8F323804232C6DB09444 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: MDataPrep            AFC2F794AACC133CEEE2 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: MDynLink             9F8218B47CB88EEBB552 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: MDynLink             9F02C784A0A2F50BA0B8 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Milkyway             6F723884FCC1CE757805 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Milkyway             AF8247A48C787CB9E4C2 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Milkyway-Interface   AF32F79468DD62BD2A69 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Milkyway-Interface   5F12E714949383082163 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Milkyway-Interface   1FC2D764712C38BC26FE 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Power-Optimization   4F02E764F58A581F27CE 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: PrimePower           BFE2E7F4B046F9EDD1D7 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: PrimeTime            CF2237048B67B16DBEB7 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: PrimeTime-SI         7FB26724BD239E2320C0 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: RTL-Power-Analysis   DF1267942AA17E0BC100 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SSST                 DFC2D8A5235A4C519CE5 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SSST                 BF325894676B5241731F 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SSST                 3F42C784F20DF4AB9E6F 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2-NETLIST     FFD2E8A4EFA366A0C9A9 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2-NETLIST     AF322704739760F18F30 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2-PROBER      3F127834212C3358723B 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2-PROBER      6FE2A77460FA94DDEDC0 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2-TCAD        7F72E824C25E3EDEF475 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2-TCAD        7FC237044805ECC9ED63 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2_ULTRA_MANAGER 3F22D8D487B6A7610829 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: STAR-RC2_ULTRA_MANAGER 3F125744D36960DAC672 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynLib-Eval          BF4217E44471D975BBE4 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynLib-Eval          1FA2F794F4721C9F2922 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynopsysCustomAdvancedPlus 1F3248041BF63ABF4AB8 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynopsysCustomAdvancedPlus 2F6257F45BC8AACFA450 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynopsysCustomSAE    BF52C8D4151CFF809C2D 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynopsysCustomSAE    3FA23894FD5EC91C6B5C 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynopsysCustomSAE    CF22B7B4F47975A1FDCE 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: SynopsysCustomSAE    0FA257A4BDAD3B915ED0 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-CTL-Model       BF224794E0EC28D7FD17 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-Compiler        3F22F764A441C3FCC354 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-Core-Wrapper    0F4297E472667BB2D83A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-DFTC-TMAX       9F12D7849C939592924F 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-LBIST-Synthesis 1FC217840B3EE0B220F1 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-MBIST-Integration 7F22D704367B215A9505 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-RTL-Check       6F921704BC0902580E1D 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-RTL-Tristate    9FE2A7F4BA4232C92627 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-STDVR           6FE29744841DD23A9FC2 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-ScanRoute       AFE2E744DA4A4D086A1A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Test-Validate        1F523764AF49DA1C70ED 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VC-CDC-BASE          00DD 6BA3 2A9E DF18  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VC-LINT-BASE         0000 DB6B 1E8D 5051  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VC-STATIC-COMPILE    003C AECB A7B8 0A49  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VC-STATIC-LINT       003C 9950 228B AC7F  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VC-STATIC-VERDI-PLUGIN 0031 7F21 609F 482A  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSCompiler_Net      2FC24805AFDFC621B8AD 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSCompiler_Net      7F62670481877F7A9EF3 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSMXCompiler_Net    DF7228A568499CE8539B 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSMXCompiler_Net    CFA2174422D675ACC29C 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSMXRunTime_Net     6F4248F5967151078CD6 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSMXRunTime_Net     6F927714C9F4A0B436DC 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSRuntime_Net       5FE28835EAA1A3A13143 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSRuntime_Net       9F022754C6F2E866ADEB 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSTools_Net         CF827805FAEE834E891D 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSTools_Net         4FF227240B0B92C7C850 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSUltraCompiler_Net 1F0238555B076BBFD2C7 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSUltraCompiler_Net CFD26714A2EAD6A603EC 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSUltraRuntime_Net  EF42B80509E62845163A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VCSUltraRuntime_Net  9F22474418E372CE42A8 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VERDI-ULTRA          CFA2B7D466AFA023FDE6 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VIP-AMBA-AHB-SVT     DF222724D46BEF329F89 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VIP-AMBA-APB-SVT     8F220724ECF2CF91D687 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VIP-AMBA-AXI-SVT     EF2277D41A5F9F019B7A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VT_CoverageURG       9F4287B464F5AD4E95F9 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VT_VCS_AMS_AddOnRuntime 7F92D8A5F6E01DFBCE20 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VT_VCS_AMS_CoSimRuntime BF02F8B574EEB63B5586 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: VT_VCS_AMS_CoSimRuntime FF3257A41E28EA53B7E1 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: Verdi_HwSwDebug      4F42D72488F5869771C8 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: adv_checker          0059 C32E 4381 2235  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: cdc_adv_checker      008E 29E4 236D 3B3F  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: cdsaawaves           9F229804D596542202B6 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: cdsaawaves           BF5287E46C02906CEF5A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: checker              0008 9D1E 789C 7431  11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: encrypt              BFC298841FE8AE2902B1 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: encrypt              8FA2189482348B6D6096 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: encrypt              0F62D7943ACAD0C93F4A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: encrypt              7F22E7C4738C75A95933 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: fullhspice           5FE23854B9373FB91545 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: fullhspice           2FF287547C21CBC160C6 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspice               8FE2586419F85EF5FC7A 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspice               5F12D794BD2FA4E57228 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspice3des           CFF258740E43FD388558 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspice3des           FF12E7849ED66975A9C5 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspice_api           4F7268D4C4C736FBDCA2 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspice_api           EF4247E438E3C3816416 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspicecmidev         AFE2285414112B4C7394 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspicecmidev         DF526794E1F35A5A9A8C 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspicecmirt          EF82F8D4634B085BA691 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: hspicecmirt          AF3267E43890B62AA8B6 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: metaencrypt3des      3F126854E3B2E1BA67CD 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: metaencrypt3des      6F7287543A792729B216 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: nanosim/ace_cosim    FF22D8E49F199A1F7260 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: nanosim/ace_cosim    9F62A794BAE10885559D 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: primewave            7FC2F8D45E31E45B86BA 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: primewave            4F7227D4DF56B6EEB333 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: simif                CF0238644665E2B5F5E4 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: simif                8FD2F7F4E839958833CA 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: spice_explorer       10389534884E041C     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: spice_explorer       BDC6010895DA270C     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: spice_parser         7F42D82423DB490B8CF2 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: spice_parser         4FE287D4728FF822229E 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: sx_cdslink           7D98DFBC46A45206     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: sx_cdslink           C9EA4D7602FCB280     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: sx_cdslink_ext       516C5DF29BF0CE76     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: sx_cdslink_ext       8942A596D9668046     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: sx_data              7B52A4A26E58EF98     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: sx_data              E36ABA205DE22546     11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: xsim                 CFB22804114AEF546CB8 11-Jul-2021
+07/08/2021 08:44:25 (snpslmd) EXPIRATION WARNING: xsim                 7FD2F7C46C3006610CB6 11-Jul-2021
+ 8:44:25 (snpslmd) No valid hostids, exiting
+ 8:44:25 (snpslmd) EXITING DUE TO SIGNAL 34 Exit reason 2
+ 8:44:25 (lmgrd) snpslmd exited with status 34 (Invalid host)
+ 8:44:25 (lmgrd) Please correct problem and restart daemons
+ 8:57:28 (lmgrd) SHUTDOWN request from centos at node ip-172-31-33-1.us-east-2.compute.internal
+ 8:57:28 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+ 8:57:28 (lmgrd) EXITING DUE TO SIGNAL 15

@@ -1,0 +1,911 @@
+21:38:17 (lmgrd) -----------------------------------------------
+21:38:17 (lmgrd)   Please Note:
+21:38:17 (lmgrd) 
+21:38:17 (lmgrd)   This log is intended for debug purposes only.
+21:38:17 (lmgrd)   In order to capture accurate license
+21:38:17 (lmgrd)   usage data into an organized repository,
+21:38:17 (lmgrd)   please enable report logging. Use Flexera's
+21:38:17 (lmgrd)   software license administration  solution,
+21:38:17 (lmgrd)   FlexNet Manager, to  readily gain visibility
+21:38:17 (lmgrd)   into license usage data and to create
+21:38:17 (lmgrd)   insightful reports on critical information like
+21:38:17 (lmgrd)   license availability and usage. FlexNet Manager
+21:38:17 (lmgrd)   can be fully automated to run these reports on
+21:38:17 (lmgrd)   schedule and can be used to track license
+21:38:17 (lmgrd)   servers and usage across a heterogeneous
+21:38:17 (lmgrd)   network of servers including Windows NT, Linux
+21:38:17 (lmgrd)   and UNIX.
+21:38:17 (lmgrd) 
+21:38:17 (lmgrd) -----------------------------------------------
+21:38:17 (lmgrd) 
+21:38:17 (lmgrd) 
+21:38:17 (lmgrd) Server's System Date and Time: Thu Jul 28 2022 21:38:17 UTC
+21:38:17 (lmgrd) SLOG: Summary LOG statistics is enabled.
+21:38:17 (lmgrd) The license server manager (lmgrd) running as root:
+21:38:17 (lmgrd) 	This is a potential security problem
+21:38:17 (lmgrd) 	and is not recommended.
+21:38:17 (lmgrd) FlexNet Licensing (v11.16.4.0 build 252457 x64_lsb) started on ip-172-31-33-1.us-east-2.compute.internal (linux) (7/28/2022)
+21:38:17 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+21:38:17 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+21:38:17 (lmgrd) License file(s): ./admin/license/Jul22.lic
+21:38:17 (lmgrd) lmgrd tcp-port 27020
+21:38:17 (lmgrd) (@lmgrd-SLOG@) ===============================================
+21:38:17 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+21:38:17 (lmgrd) (@lmgrd-SLOG@) Start-Date: Thu Jul 28 2022 21:38:17 UTC
+21:38:17 (lmgrd) (@lmgrd-SLOG@) PID: 758224
+21:38:17 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+21:38:17 (lmgrd) (@lmgrd-SLOG@) 
+21:38:17 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+21:38:17 (lmgrd) (@lmgrd-SLOG@) Listening port: 27020
+21:38:17 (lmgrd) (@lmgrd-SLOG@) 
+21:38:17 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+21:38:17 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+21:38:17 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c ./admin/license/Jul22.lic -l ./admin/logs/Jul22_3.log 
+21:38:17 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  ./admin/license/Jul22.lic
+21:38:17 (lmgrd) (@lmgrd-SLOG@) ===============================================
+21:38:17 (lmgrd) Starting vendor daemons ... 
+21:38:17 (lmgrd) Started snpslmd (internet tcp_port 52329 pid 758226)
+21:38:17 (snpslmd) FlexNet Licensing version v11.16.4.0 build 252457 x64_lsb
+07/28/2022 21:38:18 (snpslmd) INFO: Pooling on VENDOR_STRING is Disabled (to enable, set SCL_POOL_VS=1)
+07/28/2022 21:38:18 (snpslmd) Synopsys Corporate Licensing (SCL) Release: version SCL_2021.03_SP1
+07/28/2022 21:38:18 (snpslmd) INFO: License sanity check enabled (3600)
+07/28/2022 21:38:18 (snpslmd) INFO: File descriptor limit (soft, hard) for snpslmd: 1024, 262144
+07/28/2022 21:38:18 (snpslmd) INFO: TCP - tcp_keepalive_time - 7200 | tcp_keepalive_intvl - 75 | tcp_keepalive_probes - 9 | tcp_fin_timeout - 60 | net.ipv4.tcp_max_syn_backlog=2048 | net.core.somaxconn=128
+
+07/28/2022 21:38:18 (snpslmd) INFO: Cloud detection enabled. 1
+21:38:18 (snpslmd) SLOG: Summary LOG statistics is enabled.
+21:38:18 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT1
+21:38:18 (snpslmd) SLOG: VM Status: 6
+21:38:18 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT5
+21:38:18 (snpslmd) SLOG: TPM Status: 0
+21:38:18 (snpslmd) SLOG: FNPLS-INTERNAL-CKPT6
+21:38:18 (snpslmd) Warning: VC-SG-3-Apex-Base-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-SG-3-Apex-Elite-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-SG-3-Apex-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-3-Apex-Base-Compile-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-3-Apex-Base-Runtime-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-3-Apex-Compile-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-3-Apex-Elite-Compile-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-3-Apex-Elite-Runtime-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-3-Apex-Runtime-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Verdi-3-Apex-Pkg expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SSST expires 29-Jul-2022
+21:38:18 (snpslmd) Warning: ACS expires 29-jul-2022
+21:38:18 (snpslmd) Warning: BOA-BRT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DC-Expert expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DC-Extension expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DC-Graphical expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DC-SDF-Interface expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DC-Ultra-Features expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DC-Ultra-Opt expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Design-Budgeting expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Design-Compiler expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Design-Compiler-NXT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Design-Vision expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DesignWare expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DesignWare-LP expires 29-jul-2022
+21:38:18 (snpslmd) Warning: DesignWare-VERA expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Designware-Basic expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Digital-AF expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Digital-AGP expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Digital-NX-AGP expires 29-jul-2022
+21:38:18 (snpslmd) Warning: FAS-COSIM expires 29-jul-2022
+21:38:18 (snpslmd) Warning: FSPRO2XSIM expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Formality expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Formality-Advanced expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Formality-E1 expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Formality-Ultra expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Galaxy-Common expires 29-jul-2022
+21:38:18 (snpslmd) Warning: GalaxyConstraint expires 29-jul-2022
+21:38:18 (snpslmd) Warning: HDL expires 29-jul-2022
+21:38:18 (snpslmd) Warning: HDL-Compiler expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICCompilerII-8 expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICCompilerII-8-AdvGeo expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICCompilerII-ML expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICCompilerII-NX expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICCompilerII-NX-AdvGeo expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICCompilerIIs-Shell expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICValidator-Live expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICValidator-Manager expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICValidator-Workbench expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICValidator2-CompareEngine expires 29-jul-2022
+21:38:18 (snpslmd) Warning: ICValidator2-GeometryEngine expires 29-jul-2022
+21:38:18 (snpslmd) Warning: LMCSwift_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Library-Compiler expires 29-jul-2022
+21:38:18 (snpslmd) Warning: MCE-Base expires 29-jul-2022
+21:38:18 (snpslmd) Warning: MDataPrep expires 29-jul-2022
+21:38:18 (snpslmd) Warning: MDynLink expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Milkyway expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Milkyway-Interface expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Milkyway-Interface expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Milkyway-Interface expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Power-Optimization expires 29-jul-2022
+21:38:18 (snpslmd) Warning: PrimePower expires 29-jul-2022
+21:38:18 (snpslmd) Warning: PrimeTime expires 29-jul-2022
+21:38:18 (snpslmd) Warning: PrimeTime-SI expires 29-jul-2022
+21:38:18 (snpslmd) Warning: RTL-Power-Analysis expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SG-Verdi-Plugin expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SNPS_INDESIGN_RH_RAIL expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2-AGP expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2-NETLIST expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2-PROBER expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2-TCAD expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2_PARASITIC_EXPLORER expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2_ULTRAPLUS expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2_ULTRAPLUS_CUSTOM_IACT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: STAR-RC2_ULTRA_MANAGER expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SynLib-Eval expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SynopsysCustomAdvancedPlus expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SynopsysCustomSAE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SynopsysCustomSAE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: SynopsysCustomSAE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-CTL-Model expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-Compiler expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-Core-Wrapper expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-DFTC-TMAX expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-LBIST-Synthesis expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-MBIST-Integration expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-RTL-Check expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-RTL-Tristate expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-STDVR expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-ScanRoute expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Test-Validate expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-STATIC-COMPILE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-STATIC-VERDI-PLUGIN expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCSTools_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VERDI-APEX-AN expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VERDI-APEX-RT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VHDL-Compiler expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VIP-AMBA-AHB-SVT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VIP-AMBA-APB-SVT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VIP-AMBA-AXI-SVT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VT_CoverageURG expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VT_VCS_AMS_AddOnRuntime expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VT_VCS_AMS_CoSimRuntime expires 29-jul-2022
+21:38:18 (snpslmd) Warning: adv_checker expires 29-jul-2022
+21:38:18 (snpslmd) Warning: cdsaawaves expires 29-jul-2022
+21:38:18 (snpslmd) Warning: encrypt expires 29-jul-2022
+21:38:18 (snpslmd) Warning: encrypt expires 29-jul-2022
+21:38:18 (snpslmd) Warning: fullhspice expires 29-jul-2022
+21:38:18 (snpslmd) Warning: hspice expires 29-jul-2022
+21:38:18 (snpslmd) Warning: hspice3des expires 29-jul-2022
+21:38:18 (snpslmd) Warning: hspice_api expires 29-jul-2022
+21:38:18 (snpslmd) Warning: hspicecmidev expires 29-jul-2022
+21:38:18 (snpslmd) Warning: hspicecmirt expires 29-jul-2022
+21:38:18 (snpslmd) Warning: lint_func expires 29-jul-2022
+21:38:18 (snpslmd) Warning: lint_soc_abstraction expires 29-jul-2022
+21:38:18 (snpslmd) Warning: metaencrypt3des expires 29-jul-2022
+21:38:18 (snpslmd) Warning: mvdbgen expires 29-jul-2022
+21:38:18 (snpslmd) Warning: mvsim expires 29-jul-2022
+21:38:18 (snpslmd) Warning: nanosim/ace_cosim expires 29-jul-2022
+21:38:18 (snpslmd) Warning: primewave expires 29-jul-2022
+21:38:18 (snpslmd) Warning: primewave_re expires 29-jul-2022
+21:38:18 (snpslmd) Warning: simif expires 29-jul-2022
+21:38:18 (snpslmd) Warning: spice_explorer expires 29-jul-2022
+21:38:18 (snpslmd) Warning: spice_explorer expires 29-jul-2022
+21:38:18 (snpslmd) Warning: spice_parser expires 29-jul-2022
+21:38:18 (snpslmd) Warning: sx_cdslink expires 29-jul-2022
+21:38:18 (snpslmd) Warning: sx_cdslink_ext expires 29-jul-2022
+21:38:18 (snpslmd) Warning: sx_data expires 29-jul-2022
+21:38:18 (snpslmd) Warning: turbo_struct expires 29-jul-2022
+21:38:18 (snpslmd) Warning: xsim expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VERDI-APEX expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VERDI-ULTRA expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-APEX-RUNTIME expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCSUltraRuntime_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCSMXRunTime_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-ELITE-RUNTIME expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-ELITE-COMPILE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCSMXCompiler_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-APEX-COMPILE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCSUltraCompiler_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-BASE-RUNTIME expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCSRuntime_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCS-BASE-COMPILE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VCSCompiler_Net expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-SG-APEX expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-CDC-ADV expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-CDC-NETLIST expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-STATIC-CDC-DEBUG-ML expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-STATIC-VDIFF expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-SG-ELITE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-CDC-BASE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: cdc_adv_checker expires 29-jul-2022
+21:38:18 (snpslmd) Warning: Advanced_CDC expires 29-jul-2022
+21:38:18 (snpslmd) Warning: cdc_soc_abstraction expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-SG-BASE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-LINT-BASE expires 29-jul-2022
+21:38:18 (snpslmd) Warning: VC-STATIC-LINT expires 29-jul-2022
+21:38:18 (snpslmd) Warning: BasePolicySO expires 29-jul-2022
+21:38:18 (snpslmd) Warning: checker expires 29-jul-2022
+21:38:18 (snpslmd) Warning: gui expires 29-jul-2022
+21:38:18 (snpslmd) Warning: mixed expires 29-jul-2022
+21:38:18 (snpslmd) Warning: oemunlock expires 29-jul-2022
+21:38:18 (snpslmd) Warning: save_restore expires 29-jul-2022
+21:38:18 (snpslmd) Warning: system_verilog expires 29-jul-2022
+21:38:18 (snpslmd) Warning: verilog expires 29-jul-2022
+21:38:18 (snpslmd) Warning: vhdl expires 29-jul-2022
+21:38:18 (snpslmd) Server started on ip-172-31-33-1.us-east-2.compute.internal for:	
+21:38:18 (snpslmd) VC-SG-3-Apex-Base-Pkg (consisting of:		VC-SG-BASE	
+21:38:18 (snpslmd) VC-LINT-BASE	VC-STATIC-LINT	BasePolicySO	
+21:38:18 (snpslmd) checker		gui		mixed		
+21:38:18 (snpslmd) oemunlock	save_restore	system_verilog	
+21:38:18 (snpslmd) verilog		vhdl)		
+21:38:18 (snpslmd) VC-SG-3-Apex-Elite-Pkg (consisting of:		VC-SG-ELITE	
+21:38:18 (snpslmd) VC-CDC-BASE	cdc_adv_checker Advanced_CDC	
+21:38:18 (snpslmd) cdc_soc_abstraction) 
+21:38:18 (snpslmd) VC-SG-3-Apex-Pkg (consisting of:		VC-SG-APEX	
+21:38:18 (snpslmd) VC-CDC-ADV	VC-CDC-NETLIST	VC-STATIC-CDC-DEBUG-ML 
+21:38:18 (snpslmd) VC-STATIC-VDIFF) 
+21:38:18 (snpslmd) VCS-3-Apex-Base-Compile-Pkg (consisting of:		VCS-BASE-COMPILE 
+21:38:18 (snpslmd) VCSCompiler_Net) 
+21:38:18 (snpslmd) VCS-3-Apex-Base-Runtime-Pkg (consisting of:		VCS-BASE-RUNTIME 
+21:38:18 (snpslmd) VCSRuntime_Net)	
+21:38:18 (snpslmd) VCS-3-Apex-Compile-Pkg (consisting of:		VCS-APEX-COMPILE 
+21:38:18 (snpslmd) VCSUltraCompiler_Net) 
+21:38:18 (snpslmd) VCS-3-Apex-Elite-Compile-Pkg (consisting of:		VCS-ELITE-COMPILE 
+21:38:18 (snpslmd) VCSMXCompiler_Net) 
+21:38:18 (snpslmd) VCS-3-Apex-Elite-Runtime-Pkg (consisting of:		VCSMXRunTime_Net 
+21:38:18 (snpslmd) VCS-ELITE-RUNTIME) 
+21:38:18 (snpslmd) VCS-3-Apex-Runtime-Pkg (consisting of:		VCS-APEX-RUNTIME 
+21:38:18 (snpslmd) VCSUltraRuntime_Net) 
+21:38:18 (snpslmd) Verdi-3-Apex-Pkg (consisting of:		VERDI-APEX	
+21:38:18 (snpslmd) VERDI-ULTRA)	SSST		ACS		
+21:38:18 (snpslmd) BOA-BRT		DC-Expert	DC-Extension	
+21:38:18 (snpslmd) DC-Graphical	DC-SDF-Interface DC-Ultra-Features 
+21:38:18 (snpslmd) DC-Ultra-Opt	Design-Budgeting Design-Compiler 
+21:38:18 (snpslmd) Design-Compiler-NXT Design-Vision	DesignWare	
+21:38:18 (snpslmd) DesignWare-LP	DesignWare-VERA Designware-Basic 
+21:38:18 (snpslmd) Digital-AF	Digital-AGP	Digital-NX-AGP	
+21:38:18 (snpslmd) FAS-COSIM	FSPRO2XSIM	Formality	
+21:38:18 (snpslmd) Formality-Advanced Formality-E1	Formality-Ultra 
+21:38:18 (snpslmd) Galaxy-Common	GalaxyConstraint HDL		
+21:38:18 (snpslmd) HDL-Compiler	ICCompilerII-8	ICCompilerII-8-AdvGeo 
+21:38:18 (snpslmd) ICCompilerII-ML ICCompilerII-NX ICCompilerII-NX-AdvGeo 
+21:38:18 (snpslmd) ICCompilerIIs-Shell ICValidator-Live ICValidator-Manager 
+21:38:18 (snpslmd) ICValidator-Workbench ICValidator2-CompareEngine ICValidator2-GeometryEngine 
+21:38:18 (snpslmd) LMCSwift_Net	Library-Compiler MCE-Base	
+21:38:18 (snpslmd) MDataPrep	MDynLink	Milkyway	
+21:38:18 (snpslmd) Milkyway-Interface Power-Optimization PrimePower	
+21:38:18 (snpslmd) PrimeTime	PrimeTime-SI	RTL-Power-Analysis 
+21:38:18 (snpslmd) SG-Verdi-Plugin SNPS_INDESIGN_RH_RAIL STAR-RC2-AGP	
+21:38:18 (snpslmd) STAR-RC2-NETLIST STAR-RC2-PROBER STAR-RC2-TCAD	
+21:38:18 (snpslmd) STAR-RC2_PARASITIC_EXPLORER STAR-RC2_ULTRAPLUS STAR-RC2_ULTRAPLUS_CUSTOM_IACT 
+21:38:18 (snpslmd) STAR-RC2_ULTRA_MANAGER SynLib-Eval	SynopsysCustomAdvancedPlus 
+21:38:18 (snpslmd) SynopsysCustomSAE Test-CTL-Model	Test-Compiler	
+21:38:18 (snpslmd) Test-Core-Wrapper Test-DFTC-TMAX	Test-LBIST-Synthesis 
+21:38:18 (snpslmd) Test-MBIST-Integration Test-RTL-Check	Test-RTL-Tristate 
+21:38:18 (snpslmd) Test-STDVR	Test-ScanRoute	Test-Validate	
+21:38:18 (snpslmd) VC-STATIC-COMPILE VC-STATIC-VERDI-PLUGIN VCSTools_Net	
+21:38:18 (snpslmd) VERDI-APEX-AN	VERDI-APEX-RT	VHDL-Compiler	
+21:38:18 (snpslmd) VIP-AMBA-AHB-SVT VIP-AMBA-APB-SVT VIP-AMBA-AXI-SVT 
+21:38:18 (snpslmd) VT_CoverageURG	VT_VCS_AMS_AddOnRuntime VT_VCS_AMS_CoSimRuntime 
+21:38:18 (snpslmd) adv_checker	cdsaawaves	encrypt		
+21:38:18 (snpslmd) fullhspice	hspice		hspice3des	
+21:38:18 (snpslmd) hspice_api	hspicecmidev	hspicecmirt	
+21:38:18 (snpslmd) lint_func	lint_soc_abstraction metaencrypt3des 
+21:38:18 (snpslmd) mvdbgen		mvsim		nanosim/ace_cosim 
+21:38:18 (snpslmd) primewave	primewave_re	simif		
+21:38:18 (snpslmd) spice_explorer	spice_explorer	spice_parser	
+21:38:18 (snpslmd) sx_cdslink	sx_cdslink_ext	sx_data		
+21:38:18 (snpslmd) turbo_struct	xsim		
+21:38:18 (snpslmd) 
+21:38:18 (snpslmd) Licenses are case sensitive for TE_CATS
+21:38:18 (snpslmd) 
+21:38:18 (snpslmd) EXTERNAL FILTERS are OFF
+21:38:18 (lmgrd) snpslmd using TCP-port 52329
+21:38:18 (snpslmd) Serving features for the following vendor names:
+ snpslmd  ACAD  adalmd  anagram  arcd  atrenta  avantd  CADABRA  chrysalisd  cowared  doradod  EPIC  eved  extremed  hscd  innologd  ISE-TCADd  knights  magma  metasoftd  mwflexd  nassd  nsysnvs  numeritchd  pdld  perflmd  riod  saber_dmn  sandwork  sclmgrd  sigmacd  SIINT  simple  snpsOEM1  snslmgrd  ssilmd  synforad  synopsysd  synplctyd  targetld  TAVEREN  TE_CATS  tmald  vastlmd  vcsd  wlld  
+07/28/2022 21:38:18 (snpslmd) ------------------------------------------------------------------
+07/28/2022 21:38:18 (snpslmd) Checking the integrity of the license file...
+07/28/2022 21:38:18 (snpslmd) Valid SSST feature found.
+07/28/2022 21:38:18 (snpslmd) Licensed to Quasistatics Inc.
+07/28/2022 21:38:18 (snpslmd) Siteid: 48259, Server Hostid: VM_UUID=I-03F13A8C6BD64EF16, Issued on: 7/13/2022
+07/28/2022 21:38:18 (snpslmd) ------------------------------------------------------------------
+07/28/2022 21:38:18 (snpslmd) INFO: Server WAN NC data enabled
+07/28/2022 21:38:18 (snpslmd) [SCL] Running on AWS Cloud Platform.
+21:38:18 (snpslmd) SLOG: Statistics Log Frequency is 240 minute(s).
+21:38:18 (snpslmd) SLOG: TS update poll interval is 0. TS update is detected by midnight reread only.
+21:38:18 (snpslmd) SLOG: Activation borrow reclaim percentage is 0.
+21:38:18 (snpslmd) (@snpslmd-SLOG@) ===============================================
+21:38:18 (snpslmd) (@snpslmd-SLOG@) === Vendor Daemon ===
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Vendor daemon: snpslmd
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Start-Date: Thu Jul 28 2022 21:38:18 UTC
+21:38:18 (snpslmd) (@snpslmd-SLOG@) PID: 758226
+21:38:18 (snpslmd) (@snpslmd-SLOG@) VD Version: v11.16.4.0 build 252457 x64_lsb ( build 252457 (ipv6))
+21:38:18 (snpslmd) (@snpslmd-SLOG@) 
+21:38:18 (snpslmd) (@snpslmd-SLOG@) === Startup/Restart Info ===
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Options file used: None
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Is vendor daemon a CVD: Yes
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Is FlexNet Licensing Service installed and compatible: Yes
+21:38:18 (snpslmd) (@snpslmd-SLOG@) FlexNet Licensing Service Version: 11.16.4.0
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Is TS accessed: No
+21:38:18 (snpslmd) (@snpslmd-SLOG@) TS access time: -NA-
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Number of VD restarts since LS startup: 0
+21:38:18 (snpslmd) (@snpslmd-SLOG@) 
+21:38:18 (snpslmd) (@snpslmd-SLOG@) === Network Info ===
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Listening port: 52329
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Daemon select timeout (in seconds): 1
+21:38:18 (snpslmd) (@snpslmd-SLOG@) 
+21:38:18 (snpslmd) (@snpslmd-SLOG@) === Host Info ===
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Host used in license file: ip-172-31-33-1.us-east-2.compute.internal
+21:38:18 (snpslmd) (@snpslmd-SLOG@) HostID node-locked in license file: VM_UUID=I-03F13A8C6BD64EF16 
+21:38:18 (snpslmd) (@snpslmd-SLOG@) HostID of the License Server: 0a728c0d98d6
+21:38:18 (snpslmd) (@snpslmd-SLOG@) Running on Hypervisor: Amazon EC2
+21:38:18 (snpslmd) (@snpslmd-SLOG@) ===============================================
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ACS                  BF944C2DEC3B053BB420 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: BOA-BRT              9FA4FC4D5DCC3D49C916 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DC-Expert            CFB47CBD3AA9848EFA52 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DC-Extension         3F340C3D1055EE121768 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DC-Graphical         AFC40CFD4ACF8F455F1D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DC-SDF-Interface     0F543C0D9FEC5C4DA9DA 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DC-Ultra-Features    BFE41C5DB62E7CDFF6DC 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DC-Ultra-Opt         AF84EC4D6A2DA5294A45 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Design-Budgeting     BF34ECFD1BD2FFE089BC 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Design-Compiler      1FC49C8D3E0F2D7DC3FD 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Design-Compiler-NXT  3FA4CC8D8A937D221C13 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Design-Vision        AFA4BC3D3428E5349419 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DesignWare           DF147CFD63CFF3C0C45D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DesignWare-LP        FF44DC5DF7FE81E838CD 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: DesignWare-VERA      DF443C8D4AA212779A37 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Designware-Basic     DFE49CFD6B77F92CD0AD 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Digital-AF           5F643C2DBD97E48A271C 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Digital-AGP          CFE4CCBD625DF296DC81 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Digital-NX-AGP       5F047C7DB1865D924062 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: FAS-COSIM            7FF40C3D07980E46390C 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: FSPRO2XSIM           EF441C4DFB76B56C7932 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Formality            1F347C5DBAAE31E1D829 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Formality-Advanced   CF347C1D1069703E57A7 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Formality-E1         DF748C9DF281E9D2D7C7 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Formality-Ultra      FF447C0D2034213A6022 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Galaxy-Common        9F54ACBD6EE0869DA297 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: GalaxyConstraint     6F04FCEDBB721A9FBEF8 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: HDL                  BF245C7DAA1B29D87A6D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: HDL-Compiler         5FA4CCAD86E9EAD337F8 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICCompilerII-8       2F741C1D69A517AE2C13 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICCompilerII-8-AdvGeo 2FC4DCDD284CA990E1FC 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICCompilerII-ML      7F84BC2DBDCE77828662 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICCompilerII-NX      5F545C0D2E5777E721D5 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICCompilerII-NX-AdvGeo AF349C7D362169A0DBA6 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICCompilerIIs-Shell  1F342C6D6090786E34FC 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICValidator-Live     BFB4BC4DC90A0518B7F2 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICValidator-Manager  8F84CC5D83781F64BDE3 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICValidator-Workbench DFD43CBDDA730642DDC1 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICValidator2-CompareEngine 6FD4BC6D61D94F19EBFB 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: ICValidator2-GeometryEngine 2F345C2D6B0D08733D7D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: LMCSwift_Net         7FB48C6D066E141CF5CC 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Library-Compiler     BF54CC5DE95B33C4B2D6 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: MCE-Base             3F04BC4D55880C3B3BA9 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: MDataPrep            0F94DC5D0B83F1D5C006 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: MDynLink             AF446C5DF5D9B974AD0C 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Milkyway             4F84EC5D60115DDE7B33 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Milkyway-Interface   9F44EC4DA4F68918489E 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Milkyway-Interface   4FF44CAD49672E88C67E 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Milkyway-Interface   3F245C4DFC12E928DBAC 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Power-Optimization   5F248C3DD83151DCD400 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: PrimePower           FFD4EC8DF50A5AEFA33F 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: PrimeTime            8F143CBD3B4989A1CEAC 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: PrimeTime-SI         DFB48C5D162E3BC41875 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: RTL-Power-Analysis   8FA4BC6DA6BDEA4334A7 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SG-Verdi-Plugin      009B 4244 308E 687D  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SNPS_INDESIGN_RH_RAIL 4F148C5D7BE43DCC4E43 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SSST                 4F245C8D56B8DD8FCFB8 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2-AGP         3FF4CCCD040EA2411DE1 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2-NETLIST     9F74CCADE6390237F588 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2-PROBER      DF04AC2DCFAD8375CF56 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2-TCAD        3F841CFDDA1382D6D69E 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2_PARASITIC_EXPLORER EF14CCCD17BB8DEAB659 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2_ULTRAPLUS   6FA42CED476ECBA5D5F3 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2_ULTRAPLUS_CUSTOM_IACT 3F442CAD5433F10937CB 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: STAR-RC2_ULTRA_MANAGER FF745CCD69E922D0E8A7 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SynLib-Eval          2F34EC0D74AE16D99BAE 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SynopsysCustomAdvancedPlus 6F14BC8D904EDAD150CF 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SynopsysCustomSAE    4F34FC7D8C1E925367DF 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SynopsysCustomSAE    1F04CC1D6385D63A71AF 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: SynopsysCustomSAE    8F643C5DD570697295E5 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-CTL-Model       5F84CCFD4C168DDBBE4E 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-Compiler        EF548C1D18ABF996087C 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-Core-Wrapper    FFA43C3D0CABA9609080 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-DFTC-TMAX       FF94ECFD0478D83EDF49 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-LBIST-Synthesis CFA48C3D2C2B732FD52E 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-MBIST-Integration 5F348C0D4A7C93F77F72 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-RTL-Check       DF440C5D70740F5BC844 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-RTL-Tristate    AF04ACDD991D4832A6F8 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-STDVR           6F643C9D904506A621B6 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-ScanRoute       0FF4FC7DE6B3C108E633 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Test-Validate        1F34CC4DA21144E0F28D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-SG-3-Apex-Base-Pkg 00AA B89C 66A4 D214  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-SG-3-Apex-Elite-Pkg 00A0 6DDF E95F B97B  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-SG-3-Apex-Pkg     00C5 54A6 4F34 ECDA  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-STATIC-COMPILE    0044 3FA7 3010 5AAA  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-STATIC-VERDI-PLUGIN 00F7 7E3A 3DE3 7F35  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-3-Apex-Base-Compile-Pkg 5F443C6DAC93A687185D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-3-Apex-Base-Runtime-Pkg EFF4EC8DB3ADB3909FFF 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-3-Apex-Compile-Pkg FF340C6D15BC914C90AF 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-3-Apex-Elite-Compile-Pkg 4FB4DCCD6C54F7FF8BA3 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-3-Apex-Elite-Runtime-Pkg 9F24AC1D310EAA9E5B75 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-3-Apex-Runtime-Pkg DFC4BCFD864C42D5213B 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCSTools_Net         AF54DC9DB4AB1D1E2B71 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VERDI-APEX-AN        F69BA066B6FB         29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VERDI-APEX-RT        C90802A5C12B         29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VHDL-Compiler        7F44CCEDF277E72F8530 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VIP-AMBA-AHB-SVT     4FE4FC9D5E2F1B91EAB1 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VIP-AMBA-APB-SVT     5FA4ECDD4E3EA310F3BB 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VIP-AMBA-AXI-SVT     EF54BC5DFC0A0E34B067 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VT_CoverageURG       BF840CBDE1BEE2408524 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VT_VCS_AMS_AddOnRuntime 4F04DC4DB379F05EA22A 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VT_VCS_AMS_CoSimRuntime AF647CCDF1AE7532BC3C 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Verdi-3-Apex-Pkg     A56D3B94EDE1         29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: adv_checker          000D C646 E64F 15CF  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: cdsaawaves           AFB43C6D715D6EF288F7 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: encrypt              6F146CDDA9040813640B 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: encrypt              4F94FCFDE0E5D945D64D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: fullhspice           2F94BC1DDD518DF40C5E 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: hspice               8FD44C8D14328C00850D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: hspice3des           BFA4ECAD028D67764F60 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: hspice_api           2F846CFD38B01D145FBE 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: hspicecmidev         6F748CBDD3C406A57A3F 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: hspicecmirt          DF647C8DBDCEB9B56445 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: lint_func            008A 3DA7 6A98 BE85  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: lint_soc_abstraction 0094 EC77 0F52 D4E8  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: metaencrypt3des      CF242C5DAD3193E72033 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: mvdbgen              4F944CCD7459557AC52D 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: mvsim                8F145C3D8EBC1549E6B3 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: nanosim/ace_cosim    1F741C7D9F6F455E37C2 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: primewave            EF64CC6DEAD8F399E8F2 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: primewave_re         4FA4EC3D6BF311B69271 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: simif                EFB4BCEDEE3A690FF675 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: spice_explorer       CFD48C1DF77A9722D06C 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: spice_explorer       E470B5EED3FA130E     29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: spice_parser         EF44EC2DED0F39D39A75 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: sx_cdslink           E2C409283B94300E     29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: sx_cdslink_ext       11240FA2A7A6BFC6     29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: sx_data              4F38F762DF8A0E5E     29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: turbo_struct         0079 16AA 920D C889  29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: xsim                 0FD42C3D8B9307806602 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: Advanced_CDC                              29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: BasePolicySO                              29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-CDC-ADV                                29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-CDC-BASE                               29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-CDC-NETLIST                            29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-LINT-BASE                              29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-SG-APEX                                29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-SG-BASE                                29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-SG-ELITE                               29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-STATIC-CDC-DEBUG-ML                      29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-STATIC-LINT                            29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VC-STATIC-VDIFF                           29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-APEX-COMPILE                          29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-APEX-RUNTIME                          29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-BASE-COMPILE                          29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-BASE-RUNTIME                          29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-ELITE-COMPILE                         29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCS-ELITE-RUNTIME                         29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCSCompiler_Net                           29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCSMXCompiler_Net                         29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCSMXRunTime_Net                          29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCSRuntime_Net                            29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCSUltraCompiler_Net                      29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VCSUltraRuntime_Net                       29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VERDI-APEX                                29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: VERDI-ULTRA                               29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: cdc_adv_checker                           29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: cdc_soc_abstraction                       29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: checker                                   29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: gui                                       29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: mixed                                     29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: oemunlock                                 29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: save_restore                              29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: system_verilog                            29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: verilog                                   29-Jul-2022
+07/28/2022 21:38:18 (snpslmd) EXPIRATION WARNING: vhdl                                      29-Jul-2022
+21:38:18 (snpslmd) TCP_NODELAY NOT enabled
+21:38:18 (snpslmd) OUT: "SynopsysCustomSAE" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:22 (snpslmd) OUT: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:28 (snpslmd) OUT: "spice_explorer" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:37 (snpslmd) Multiple dup-groupings in effect for spice_explorer:
+21:38:37 (snpslmd) 	NONE  vs. 
+21:38:37 (snpslmd) 	No further warnings about this.
+21:38:37 (snpslmd) OUT: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  
+21:38:38 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [3896208@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:38 (snpslmd) OUT: "SynopsysCustomSAE" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [3896208@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:39 (snpslmd) OUT: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  
+21:38:40 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:40 (snpslmd) OUT: "SynopsysCustomSAE" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:41 (snpslmd) OUT: "SynopsysCustomSAE" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:42 (snpslmd) OUT: "Design-Compiler" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [l1fac01213386573_1] 
+21:38:42 (snpslmd) OUT: "DesignWare" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [l1fac01213386573_1] 
+21:38:43 (snpslmd) OUT: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:44 (snpslmd) OUT: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:49 (snpslmd) OUT: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3151117@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:52 (snpslmd) OUT: "SynopsysCustomSAE" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:56 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3115554@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:38:56 (snpslmd) OUT: "SynopsysCustomSAE" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3115554@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:00 (snpslmd) OUT: "primewave" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2462733@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:03 (snpslmd) OUT: "VCS-3-Apex-Base-Runtime-Pkg" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1659036378] 
+21:39:03 (snpslmd) OUT: "VCSRuntime_Net" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1659036378] 
+21:39:03 (snpslmd) OUT: "VT_VCS_AMS_CoSimRuntime" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1659036378] 
+21:39:04 (snpslmd) OUT: "SynopsysCustomSAE" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [3896208@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:08 (snpslmd) OUT: "spice_explorer" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:11 (snpslmd) OUT: "VCS-3-Apex-Base-Runtime-Pkg" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658920404] 
+21:39:11 (snpslmd) OUT: "VCSRuntime_Net" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658920404] 
+21:39:11 (snpslmd) OUT: "VT_VCS_AMS_CoSimRuntime" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658920404] 
+21:39:13 (snpslmd) OUT: "VCS-3-Apex-Base-Runtime-Pkg" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658939880] 
+21:39:13 (snpslmd) OUT: "VCSRuntime_Net" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658939880] 
+21:39:13 (snpslmd) OUT: "VT_VCS_AMS_CoSimRuntime" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658939880] 
+21:39:22 (snpslmd) OUT: "SynopsysCustomSAE" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:22 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:29 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" MohitSingh@ip-172-31-33-1.us-east-2.compute.internal  [3362297@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:33 (snpslmd) OUT: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:40 (snpslmd) OUT: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:42 (snpslmd) OUT: "SynopsysCustomSAE" VivekVaibhaw@ip-172-31-33-1.us-east-2.compute.internal  [1555941@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:42 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" VivekVaibhaw@ip-172-31-33-1.us-east-2.compute.internal  [1555941@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:42 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [3151117@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:42 (snpslmd) OUT: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3151117@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:45 (snpslmd) OUT: "SynopsysCustomSAE" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3115554@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:50 (snpslmd) OUT: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3151117@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:56 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:56 (snpslmd) OUT: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:57 (snpslmd) OUT: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:57 (snpslmd) OUT: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:39:58 (snpslmd) OUT: "SynopsysCustomAdvancedPlus" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2462733@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:40:06 (snpslmd) IN: "VCSRuntime_Net" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658920404] 
+21:40:06 (snpslmd) IN: "VCS-3-Apex-Base-Runtime-Pkg" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658920404] 
+21:40:06 (snpslmd) IN: "VT_VCS_AMS_CoSimRuntime" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658920404] 
+21:40:12 (snpslmd) OUT: "SynopsysCustomSAE" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] 
+21:40:15 (snpslmd) OUT: "FSPRO2XSIM" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (2 licenses) 
+21:40:15 (snpslmd) OUT: "xsim" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (2 licenses) 
+21:40:26 (snpslmd) OUT: "ICValidator-Workbench" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  
+21:40:41 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_1] (No such feature exists. (-5,346))
+21:40:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_1] 
+21:40:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_2] 
+21:40:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_3] 
+21:40:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_4] 
+21:40:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_5] 
+21:40:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_6] 
+21:40:41 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_7] (Licensed number of users already reached. (-4,342))
+21:40:41 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_7] (Licensed number of users already reached. (-4,342))
+21:40:41 (snpslmd) OUT: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_1] 
+21:40:59 (snpslmd) OUT: "ICCompilerII-8" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3064344_1] 
+21:40:59 (snpslmd) OUT: "ICCompilerII-NX" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3064344_1] 
+21:42:21 (snpslmd) OUT: "ICCompilerII-8" bhupender-keenheads@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1842116_1] 
+21:42:21 (snpslmd) OUT: "ICCompilerII-NX" bhupender-keenheads@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1842116_1] 
+21:42:42 (snpslmd) OUT: "ICValidator-Workbench" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  
+21:43:45 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_6] 
+21:43:45 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_5] 
+21:43:45 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_4] 
+21:43:45 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_3] 
+21:43:45 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_2] 
+21:43:46 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_1] 
+21:43:46 (snpslmd) IN: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_762678_1] 
+22:05:56 (snpslmd) UNSUPPORTED: "sx_wva" (PORT_AT_HOST_PLUS   ) booshan@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+22:05:56 (snpslmd) OUT: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  
+22:10:59 (snpslmd) UNSUPPORTED: "CKTSIMSPICE" (PORT_AT_HOST_PLUS   ) booshan@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+22:10:59 (snpslmd) UNSUPPORTED: "FSSPICE" (PORT_AT_HOST_PLUS   ) booshan@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+22:10:59 (snpslmd) UNSUPPORTED: "CKTSIMPROFS" (PORT_AT_HOST_PLUS   ) booshan@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+22:10:59 (snpslmd) UNSUPPORTED: "FSPRO" (PORT_AT_HOST_PLUS   ) booshan@ip-172-31-33-1.us-east-2.compute.internal  (No such feature exists. (-5,346))
+22:10:59 (snpslmd) OUT: "FSPRO2XSIM" booshan@ip-172-31-33-1.us-east-2.compute.internal  
+22:10:59 (snpslmd) OUT: "xsim" booshan@ip-172-31-33-1.us-east-2.compute.internal  
+22:11:05 (snpslmd) IN: "FSPRO2XSIM" booshan@ip-172-31-33-1.us-east-2.compute.internal  
+22:11:05 (snpslmd) IN: "xsim" booshan@ip-172-31-33-1.us-east-2.compute.internal  
+23:28:57 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_1] (No such feature exists. (-5,346))
+23:28:57 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_1] 
+23:28:57 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_2] 
+23:28:57 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_3] 
+23:28:58 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_4] 
+23:28:58 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_5] 
+23:28:58 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_6] 
+23:28:58 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_7] (Licensed number of users already reached. (-4,342))
+23:28:58 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_7] (Licensed number of users already reached. (-4,342))
+23:28:58 (snpslmd) OUT: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_1] 
+23:29:23 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_6] 
+23:29:23 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_5] 
+23:29:23 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_4] 
+23:29:23 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_3] 
+23:29:23 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_2] 
+23:29:23 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_1] 
+23:29:23 (snpslmd) IN: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_958532_1] 
+23:32:03 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_1] (No such feature exists. (-5,346))
+23:32:03 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_1] 
+23:32:03 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_2] 
+23:32:03 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_3] 
+23:32:03 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_4] 
+23:32:03 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_5] 
+23:32:03 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_6] 
+23:32:03 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_7] (Licensed number of users already reached. (-4,342))
+23:32:03 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_7] (Licensed number of users already reached. (-4,342))
+23:32:04 (snpslmd) OUT: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_1] 
+23:38:04 (snpslmd) OUT: "ICValidator2-CompareEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_994262_1] 
+23:41:07 (snpslmd) IN: "ICValidator2-CompareEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_994262_1] 
+23:42:30 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_6] 
+23:42:30 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_5] 
+23:42:30 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_4] 
+23:42:30 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_3] 
+23:42:30 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_2] 
+23:42:31 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_1] 
+23:42:31 (snpslmd) IN: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_978975_1] 
+ 0:00:23 (snpslmd) Warning: VC-SG-3-Apex-Base-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-SG-3-Apex-Elite-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-SG-3-Apex-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-3-Apex-Base-Compile-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-3-Apex-Base-Runtime-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-3-Apex-Compile-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-3-Apex-Elite-Compile-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-3-Apex-Elite-Runtime-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-3-Apex-Runtime-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Verdi-3-Apex-Pkg expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SSST expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ACS expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: BOA-BRT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DC-Expert expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DC-Extension expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DC-Graphical expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DC-SDF-Interface expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DC-Ultra-Features expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DC-Ultra-Opt expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Design-Budgeting expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Design-Compiler expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Design-Compiler-NXT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Design-Vision expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DesignWare expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DesignWare-LP expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: DesignWare-VERA expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Designware-Basic expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Digital-AF expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Digital-AGP expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Digital-NX-AGP expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: FAS-COSIM expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: FSPRO2XSIM expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Formality expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Formality-Advanced expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Formality-E1 expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Formality-Ultra expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Galaxy-Common expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: GalaxyConstraint expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: HDL expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: HDL-Compiler expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICCompilerII-8 expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICCompilerII-8-AdvGeo expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICCompilerII-ML expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICCompilerII-NX expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICCompilerII-NX-AdvGeo expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICCompilerIIs-Shell expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICValidator-Live expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICValidator-Manager expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICValidator-Workbench expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICValidator2-CompareEngine expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: ICValidator2-GeometryEngine expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: LMCSwift_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Library-Compiler expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: MCE-Base expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: MDataPrep expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: MDynLink expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Milkyway expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Milkyway-Interface expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Milkyway-Interface expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Milkyway-Interface expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Power-Optimization expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: PrimePower expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: PrimeTime expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: PrimeTime-SI expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: RTL-Power-Analysis expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SG-Verdi-Plugin expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SNPS_INDESIGN_RH_RAIL expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2-AGP expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2-NETLIST expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2-PROBER expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2-TCAD expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2_PARASITIC_EXPLORER expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2_ULTRAPLUS expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2_ULTRAPLUS_CUSTOM_IACT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: STAR-RC2_ULTRA_MANAGER expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SynLib-Eval expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SynopsysCustomAdvancedPlus expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SynopsysCustomSAE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SynopsysCustomSAE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: SynopsysCustomSAE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-CTL-Model expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-Compiler expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-Core-Wrapper expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-DFTC-TMAX expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-LBIST-Synthesis expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-MBIST-Integration expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-RTL-Check expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-RTL-Tristate expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-STDVR expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-ScanRoute expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Test-Validate expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-STATIC-COMPILE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-STATIC-VERDI-PLUGIN expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCSTools_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VERDI-APEX-AN expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VERDI-APEX-RT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VHDL-Compiler expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VIP-AMBA-AHB-SVT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VIP-AMBA-APB-SVT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VIP-AMBA-AXI-SVT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VT_CoverageURG expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VT_VCS_AMS_AddOnRuntime expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VT_VCS_AMS_CoSimRuntime expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: adv_checker expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: cdsaawaves expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: encrypt expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: encrypt expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: fullhspice expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: hspice expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: hspice3des expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: hspice_api expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: hspicecmidev expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: hspicecmirt expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: lint_func expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: lint_soc_abstraction expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: metaencrypt3des expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: mvdbgen expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: mvsim expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: nanosim/ace_cosim expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: primewave expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: primewave_re expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: simif expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: spice_explorer expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: spice_explorer expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: spice_parser expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: sx_cdslink expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: sx_cdslink_ext expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: sx_data expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: turbo_struct expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: xsim expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VERDI-APEX expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VERDI-ULTRA expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-APEX-RUNTIME expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCSUltraRuntime_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCSMXRunTime_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-ELITE-RUNTIME expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-ELITE-COMPILE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCSMXCompiler_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-APEX-COMPILE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCSUltraCompiler_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-BASE-RUNTIME expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCSRuntime_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCS-BASE-COMPILE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VCSCompiler_Net expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-SG-APEX expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-CDC-ADV expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-CDC-NETLIST expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-STATIC-CDC-DEBUG-ML expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-STATIC-VDIFF expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-SG-ELITE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-CDC-BASE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: cdc_adv_checker expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: Advanced_CDC expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: cdc_soc_abstraction expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-SG-BASE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-LINT-BASE expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: VC-STATIC-LINT expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: BasePolicySO expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: checker expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: gui expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: mixed expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: oemunlock expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: save_restore expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: system_verilog expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: verilog expires 29-jul-2022
+ 0:00:23 (snpslmd) Warning: vhdl expires 29-jul-2022
+ 0:00:41 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_1] (No such feature exists. (-5,346))
+ 0:00:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_1] 
+ 0:00:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_2] 
+ 0:00:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_3] 
+ 0:00:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_4] 
+ 0:00:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_5] 
+ 0:00:41 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_6] 
+ 0:00:41 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_7] (Licensed number of users already reached. (-4,342))
+ 0:00:41 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_7] (Licensed number of users already reached. (-4,342))
+ 0:00:42 (snpslmd) OUT: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_1] 
+ 0:01:07 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_6] 
+ 0:01:07 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_5] 
+ 0:01:07 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_4] 
+ 0:01:07 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_3] 
+ 0:01:07 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_2] 
+ 0:01:07 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_1] 
+ 0:01:07 (snpslmd) IN: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1037028_1] 
+ 0:04:36 (snpslmd) UNSUPPORTED: "ICValidator-Manager-Elite" (PORT_AT_HOST_PLUS   ) centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_1] (No such feature exists. (-5,346))
+ 0:04:36 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_1] 
+ 0:04:36 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_2] 
+ 0:04:36 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_3] 
+ 0:04:36 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_4] 
+ 0:04:36 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_5] 
+ 0:04:36 (snpslmd) OUT: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_6] 
+ 0:04:36 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_7] (Licensed number of users already reached. (-4,342))
+ 0:04:36 (snpslmd) DENIED: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_7] (Licensed number of users already reached. (-4,342))
+ 0:04:36 (snpslmd) OUT: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_1] 
+ 0:04:49 (lmgrd) SHUTDOWN request from root at node ip-172-31-33-1.us-east-2.compute.internal
+ 0:04:49 (lmgrd) lmgrd will now shut down all the vendor daemons
+
+ 0:04:49 (lmgrd) Shutting down snpslmd pid=758226 because of signal 15
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) Time: Fri Jul 29 2022 00:04:49 UTC
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:49 UTC,#45,(root,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:49 UTC,#45,(root,ip-172-31-33-1.us-east-2.compute,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:40 UTC,#44,(ShivamKataria,ip-172-31-33-1.us-east-2.compute.internal,112)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:36 UTC,#45,(centos,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Fri Jul 29 2022 00:04:36 UTC,#45,(centos,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:36 UTC,#45,(centos,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:36 UTC,#45,(centos,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:36 UTC,#45,(centos,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:36 UTC,#45,(centos,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000000 ms at Fri Jul 29 2022 00:04:36 UTC,#45,(centos,ip-172-31-33-1.us-east-2.compute.internal,117)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) Time: Fri Jul 29 2022 00:04:49 UTC
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) Request processing time, when, #concurrent clients, client info (user, node, FD)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:18 UTC,#3,(AhmedEmira,ip-172-31-33-1.us-east-2.compute.internal,74)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:37 UTC,#6,(booshan,ip-172-31-33-1.us-east-2.compute.internal,77)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:38 UTC,#7,(sayantandey,ip-172-31-33-1.us-east-2.compute.internal,78)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:39 UTC,#8,(booshan,ip-172-31-33-1.us-east-2.compute.internal,79)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:39 UTC,#8,(booshan,ip-172-31-33-1.us-east-2.compute.internal,79)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:40 UTC,#9,(AhmedEmira,ip-172-31-33-1.us-east-2.compute.internal,80)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:40 UTC,#9,(AhmedEmira,ip-172-31-33-1.us-east-2.compute.internal,80)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:41 UTC,#10,(AhmedEmira,ip-172-31-33-1.us-east-2.compute,81)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:44 UTC,#13,(booshan,ip-172-31-33-1.us-east-2.compute.internal,84)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 00000001 ms at Thu Jul 28 2022 21:38:56 UTC,#16,(sumonbose,ip-172-31-33-1.us-east-2.compute.internal,87)
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) Time: Fri Jul 29 2022 00:04:49 UTC
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) In-house operation time, when, #concurrent clients
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) === Active Connections Info ===
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) Peak active connections #46 attempted at Thu Jul 28 2022 23:29:20 UTC
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) 
+ 0:04:49 (snpslmd) (@snpslmd-SLOG@) ===============================================
+ 0:04:49 (snpslmd) Shutdown requested.
+ 0:04:49 (lmgrd) Shut down FlexNet snpslmd license server system on machine ip-172-31-33-1.us-east-2.compute.internal
+ 0:04:49 (snpslmd) daemon shutdown requested - shutting down
+ 0:04:49 (snpslmd) IN: "VCS-3-Apex-Base-Runtime-Pkg" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1659036378] (SHUTDOWN)
+ 0:04:49 (lmgrd) EXITING DUE TO SIGNAL 15
+ 0:04:49 (snpslmd) IN: "VCS-3-Apex-Base-Runtime-Pkg" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658939880] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "Design-Compiler" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [l1fac01213386573_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "DesignWare" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [l1fac01213386573_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "FSPRO2XSIM" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (2 licenses) (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICCompilerII-8" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3064344_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICCompilerII-8" bhupender-keenheads@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1842116_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICCompilerII-NX" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_3064344_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICCompilerII-NX" bhupender-keenheads@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1842116_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_2] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_3] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_4] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_5] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Manager" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_6] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Workbench" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator-Workbench" ShivamKataria@ip-172-31-33-1.us-east-2.compute.internal  (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "ICValidator2-GeometryEngine" centos@ip-172-31-33-1.us-east-2.compute.internal  [J3_1fac0121_1058705_1] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [3896208@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3115554@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" MohitSingh@ip-172-31-33-1.us-east-2.compute.internal  [3362297@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" VivekVaibhaw@ip-172-31-33-1.us-east-2.compute.internal  [1555941@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" centos@ip-172-31-33-1.us-east-2.compute.internal  [3151117@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomAdvancedPlus" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2462733@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomSAE" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomSAE" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomSAE" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [3896208@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomSAE" centos@ip-172-31-33-1.us-east-2.compute.internal  [3151117@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomSAE" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomSAE" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  [3115554@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "SynopsysCustomSAE" VivekVaibhaw@ip-172-31-33-1.us-east-2.compute.internal  [1555941@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "VT_VCS_AMS_CoSimRuntime" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1659036378] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "VT_VCS_AMS_CoSimRuntime" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658939880] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "primewave" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2462733@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "spice_explorer" SushilBishnoi@ip-172-31-33-1.us-east-2.compute.internal  [961179@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  [2554839@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "spice_explorer" AhmedEmira@ip-172-31-33-1.us-east-2.compute.internal  [2277917@ip-172-31-33-1.us-east-2.compute.internal_CustomCompiler] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "spice_explorer" booshan@ip-172-31-33-1.us-east-2.compute.internal  (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "xsim" sumonbose@ip-172-31-33-1.us-east-2.compute.internal  (2 licenses) (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "VCSRuntime_Net" sayantandey@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1659036378] (SHUTDOWN)
+ 0:04:49 (snpslmd) IN: "VCSRuntime_Net" booshan@ip-172-31-33-1.us-east-2.compute.internal  [snps_checkout_1658939880] (SHUTDOWN)
